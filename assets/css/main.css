@@ -115,13 +115,14 @@ br {
     width: 400px;
     height: 600px;
     padding: 20px;
-    margin: -40% 11% 0 0;
+    margin: -45% 5% 0 0;
     opacity: 0;
     transition: all 0.2s ease-in-out;
 }
 
 .nav-options.active {
     opacity: 1;
+    margin: -40% 11% 0 0;
 }
 
 .options {
@@ -304,6 +305,7 @@ br {
     height: 90%;
     margin: 2% 0 0 0;
     padding: 0;
+    /* border: 2px yellow solid; */
 }
 
 .textex {
@@ -331,6 +333,7 @@ br {
 .hire {
     display: inline-block;
     padding: 10px 15px; 
+    width: 40%;
     background-color: #0346d8; 
     color: #fff;
     margin: 14% 0 0 2%;
@@ -338,15 +341,17 @@ br {
     font-weight: 600;
     font-style: normal;
     font-size: 1rem;
+    text-align: left;
     transition: 0.2s ease-in-out;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    transition: all 0.25s ease-in-out;
 }
   
 .hire:hover {
-    scale: 1.06;
-    border-radius: 10px;
+    width: 45%;
+    scale: 1.01;
 }
 
 .content-item img {
@@ -390,6 +395,7 @@ br {
     font-family: 'Montserrat';
     font-weight: 600;
     font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 .skill-options p {
@@ -411,8 +417,8 @@ br {
     text-align: left;
     margin: 0;
     padding: 20px;
-    width:45%;
-    height: 95%;
+    width:50%;
+    height: 85%;
     overflow: hidden;
     /* border: 2px orange solid; */
 }
@@ -443,16 +449,17 @@ br {
 }
 
 .skill-rating {
+    height: 75%;
     padding: 10px;
-    margin: 4% 0 0 10%;
+    margin: 6% 0 0 10%;
     justify-content: left;
     text-align: left;
     /* border: 5px blue solid; */
 }
 
 .all-skill {
-    padding: 0;
-    margin-top: 30%;
+    padding: 5px;
+    margin-top: 10%;
 }
 
 .all-skill li {
@@ -460,21 +467,158 @@ br {
     color: rgb(209, 209, 209);
 }
 
-.all-skill li p {
+.all-skill li a {
     display: inline-block;
     font-family: 'Ubuntu';
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 0.35;
-    text-decoration: underline;
     color: rgb(43, 90, 138);
+}
+
+.about-footers {
+    width: 48%;
+    margin-top: -6px;
+    padding: 0 5%;
+    text-align: left;
+    /* border: 2px blue solid; */
+}
+
+.head {
+    display: flex;
+}
+
+.social-foot {
+    display: inline;
+    font-family: 'Rowdies';
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: #bb5f35;
+}
+
+.social-line {
+    margin: 5.4% 0 0 6px;
+    width: 90%;
+    height: 4px;
+    background-color: #535353;
+    opacity: 0.6;
+    border-radius: 7px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons img {
+    width: 25%;
+    opacity: 0.8;
+    padding: 0 5px 0 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-icons:hover img {
+    scale: 1.1;
+}
+
+.social-icons a {
+    font-family: 'Rowdies';
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #2a3b9c;
+    opacity: 0.6;
+    margin-top: 5%;
+    transition: all 0.14s ease-in;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+    color: #4957a5;
+}
+
+
+/* Contact */
+
+.dabba-contact {
+    width: 95%;
+}
+
+.contact-box {
+    width: 40%;
+    height: 40%;
+    text-align: left;
+    margin: 6% 0 0 8%;
+    padding: 0 5%;
+}
+
+.contact-box h1 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4.5rem;
+    padding: 0;
+    margin: 2% 0 0 0;
+}
+
+.contact-box p {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 1% 0 0 5px;
+    color: #4957a5;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+}
+
+.contact-box:hover p.arrow {
+    transition: all 0.2s ease-in;
+    transform: translateX(40%);
+}
+
+.contact-options {
+    display: flex;
+    padding: 0 5%;
+    margin: 6% 0 0 15%;
+    justify-content: space-between;
+}
+
+.contact-icon {
+    width: 50%;
+    background-color: transparent;
+    margin-right: 10%;
+    cursor: pointer;
+    border: 2px rgb(46, 81, 177) solid;
+    border-radius: 20px;
+    transition: all 0.35s ease-in-out;
+}
+
+.contact-icon p {
+    font-family: 'Rowdies';
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #b8b8b8;
+    opacity: 0.8;
+}
+
+.contact-icon:hover {
+    background-color: #464653;
+    scale: 0.94;
 }
 
 
 @media only screen and (min-width: 1367px) and (max-width: 1600px) {
 
     .container.nav {
-        margin-top: -5%;
+        margin-top: -50%;
         border: 15px #0625d6 solid;
         transform: perspective(700px) scale(0.4) translateX(-700px) rotateY(5deg);
     }
@@ -523,7 +667,7 @@ br {
     }
 }
 
-@media only screen and (min-width: 1667px) and (max-width: 1900px) {
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
 
     .box-content {
         margin-top: 0%;
