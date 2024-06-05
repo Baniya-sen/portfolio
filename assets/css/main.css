@@ -543,7 +543,6 @@ br {
 
 
 /* Contact */
-
 .dabba-contact {
     width: 95%;
 }
@@ -617,10 +616,28 @@ br {
 
 @media only screen and (min-width: 1367px) and (max-width: 1600px) {
 
+    .wrapper {
+        margin-top: 1%;
+    }
+
+    .line {
+        margin: 4.8% 0 0 25px;
+        height: 60%;
+    }
+    
+    .dots li p {
+        margin: -7px 0 0 20px;
+    }
+
+    .dot:nth-child(1) { top: 12%; }
+    .dot:nth-child(2) { top: 22%; }
+    .dot:nth-child(3) { top: 32%; }
+    .dot:nth-child(4) { top: 42%; }
+    .dot:nth-child(5) { top: 52%; }
+    .dot:nth-child(6) { top: 62%; }
+
     .container.nav {
-        margin-top: -50%;
-        border: 15px #0625d6 solid;
-        transform: perspective(700px) scale(0.4) translateX(-700px) rotateY(5deg);
+        margin: -5% 0 0 7%;
     }
 
     .box-content {
@@ -638,6 +655,11 @@ br {
 
     .hire {
         margin-top: 10%;
+        width: 45%;
+    }
+
+    .hire:hover {
+        width: 50%;
     }
 
     .line2 {
@@ -665,9 +687,63 @@ br {
     .options {
         font-size: 2.2rem;
     }
+
+    .about-box {
+        scale: 0.8;
+        width: 110%;
+        margin: -5% 0 0 0;
+    }
+
+    .text-box {
+        width:50%;
+        height: 85%;
+    }
+    
+    .text-box img {
+        margin: -2% 0 0 0;
+        scale: 0.7;
+    }
+    
+    .text-box p {
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .about-footers {
+        margin: -7% 0 0 8%;
+    }
+
+    .contact-box h1 {
+        font-size: 3.5rem;
+    }
+
+    .contact-box p {
+        font-size: 1.25rem;
+    }
+
+    .contact-options {
+        scale: 0.9;
+        margin: 5% 0 0 20%;
+    }
 }
 
 @media only screen and (min-width: 1600px) and (max-width: 1900px) {
+
+    .line {
+        margin: 6% 0 0 25px;
+        height: 62%;
+    }
+    
+    .dots li p {
+        margin: -7px 0 0 20px;
+    }
+
+    .dot:nth-child(1) { top: 12%; }
+    .dot:nth-child(2) { top: 22%; }
+    .dot:nth-child(3) { top: 32%; }
+    .dot:nth-child(4) { top: 42%; }
+    .dot:nth-child(5) { top: 52%; }
+    .dot:nth-child(6) { top: 62%; }
 
     .box-content {
         margin-top: 0%;
@@ -676,6 +752,10 @@ br {
     .line2 {
         width: 84%;
         margin-left: 8.3%;
+    }
+
+    .skill-rating {
+        margin: 6.2% 0 0 10%;
     }
 
     .skill-options {
@@ -696,5 +776,17 @@ br {
 
     .text-box p{
         margin-left: 10%;
+    }
+
+    .about-box {
+        margin: 0 0 -1.6% 0;
+    }
+
+    .about-footers {
+        margin: 1% 0 0 5%;
+    }
+
+    .contact-options {
+        margin: 8% 0 0 17%;
     }
 }
