@@ -632,6 +632,10 @@ br {
         margin-left: 8.3%;
     }
 
+    .skill-options {
+        margin-top: -4%;
+    }
+
     .nav-options {
         margin: -40% 2% 0 0;
     }
@@ -649,7 +653,7 @@ br {
     }
 
     .text-box p{
-        font-size: 1.15rem;
+        font-size: 1.2rem;
         margin-left: 10%;
     }
 
