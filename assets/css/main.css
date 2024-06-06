@@ -614,8 +614,73 @@ br {
 }
 
 
-/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* For laptops (1281px - 1440px) */
+@media (min-width: 1281px) and (max-width: 1900px) {
 
+    .line {
+        margin: 6% 0 0 25px;
+        height: 62%;
+    }
+    
+    .dots li p {
+        margin: -7px 0 0 20px;
+    }
+
+    .dot:nth-child(1) { top: 12%; }
+    .dot:nth-child(2) { top: 22%; }
+    .dot:nth-child(3) { top: 32%; }
+    .dot:nth-child(4) { top: 42%; }
+    .dot:nth-child(5) { top: 52%; }
+    .dot:nth-child(6) { top: 62%; }
+
+    .box-content {
+        margin-top: 0%;
+    }
+
+    .line2 {
+        width: 84%;
+        margin-left: 8.3%;
+    }
+
+    .skill-rating {
+        margin: 6.2% 0 0 10%;
+    }
+
+    .skill-options {
+        margin-left: 6%;
+    }
+
+    .nav-options {
+        margin: -40% 2% 0 0;
+    }
+    
+    .nav-options.active {
+        margin: -40% 11% 0 0;
+    }
+
+    .text-box {
+        margin-left: 5%;
+    }
+
+    .text-box p{
+        margin-left: 10%;
+    }
+
+    .about-box {
+        margin: 0 0 -1.6% 0;
+    }
+
+    .about-footers {
+        margin: 1% 0 0 5%;
+    }
+
+    .contact-options {
+        margin: 8% 0 0 17%;
+    }
+}
+
+  /* For smaller laptops (1025px - 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
     .wrapper {
         margin-top: 1%;
     }
@@ -725,72 +790,19 @@ br {
         scale: 0.9;
         margin: 5% 0 0 20%;
     }
-} */
+}
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+/* For tablets (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+/* styles here */
+}
 
-    .container {
-        display: none;
-    }
+/* For mobile devices (480px - 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+/* styles here */
+}
 
-    .line {
-        margin: 6% 0 0 25px;
-        height: 62%;
-    }
-    
-    .dots li p {
-        margin: -7px 0 0 20px;
-    }
-
-    .dot:nth-child(1) { top: 12%; }
-    .dot:nth-child(2) { top: 22%; }
-    .dot:nth-child(3) { top: 32%; }
-    .dot:nth-child(4) { top: 42%; }
-    .dot:nth-child(5) { top: 52%; }
-    .dot:nth-child(6) { top: 62%; }
-
-    .box-content {
-        margin-top: 0%;
-    }
-
-    .line2 {
-        width: 84%;
-        margin-left: 8.3%;
-    }
-
-    .skill-rating {
-        margin: 6.2% 0 0 10%;
-    }
-
-    .skill-options {
-        margin-left: 6%;
-    }
-
-    .nav-options {
-        margin: -40% 2% 0 0;
-    }
-    
-    .nav-options.active {
-        margin: -40% 11% 0 0;
-    }
-
-    .text-box {
-        margin-left: 5%;
-    }
-
-    .text-box p{
-        margin-left: 10%;
-    }
-
-    .about-box {
-        margin: 0 0 -1.6% 0;
-    }
-
-    .about-footers {
-        margin: 1% 0 0 5%;
-    }
-
-    .contact-options {
-        margin: 8% 0 0 17%;
-    }
+/* For very small screens (less than 480px) */
+@media (max-width: 480px) {
+/* styles here */
 }
