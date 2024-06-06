@@ -32,7 +32,7 @@ br {
 
 .container.nav {
     border: 15px #0625d6 solid;
-    transform: perspective(700px) scale(0.4) translateX(-700px) rotateY(5deg);
+    transform: perspective(700px) scale(0.4) translateX(-600px) rotateY(5deg);
 }
 
 .dabba.off {
@@ -584,6 +584,10 @@ br {
 
 /* For laptops (1281px - 1900px) */
 @media (min-width: 1281px) and (max-width: 1900px) {
+
+    .container.nav {
+        margin-top: -5%;
+    }
 
     .section.active {
         scale: 0.9;
