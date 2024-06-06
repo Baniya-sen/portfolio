@@ -618,6 +618,10 @@ br {
         font-size: 0.8rem;
     }
 
+    .box {
+        scale: 0.7;
+    }
+
     .content-item img {
         scale: 0.8;
     }
