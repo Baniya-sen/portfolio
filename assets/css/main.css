@@ -586,12 +586,12 @@ br {
 @media (min-width: 1281px) and (max-width: 1900px) {
 
     .section.active {
-        scale: 0.8;
+        scale: 0.9;
     }
 
     .line {
         margin: 5% 0 0 25px;
-        height: 62%;
+        height: 61%;
     }
     
     .dots li p {
@@ -634,19 +634,6 @@ br {
         width: 85%;
         margin-left: 8.3%;
     }
-
-    /* .skill-rating {
-        margin: 6.2% 0 0 10%;
-    }
-
-    .skill-options {
-        margin-top: -2%;
-        margin-left: 8%;
-    }
-
-    .skill-options a {
-        margin-right: 8%;
-    } */
 
     .nav-options {
         margin: -40% 2% 0 0;
