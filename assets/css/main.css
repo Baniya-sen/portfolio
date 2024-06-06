@@ -587,7 +587,7 @@ br {
 
     .section.active {
         scale: 0.9;
-        margin-top: -2;
+        margin-top: -2%;
     }
 
     .line {
@@ -649,6 +649,7 @@ br {
     }
 
     .text-box p{
+        font-size: 1rem;
         margin-left: 10%;
     }
 
