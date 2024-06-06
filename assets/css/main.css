@@ -585,9 +585,12 @@ br {
 /* For laptops (1281px - 1900px) */
 @media (min-width: 1281px) and (max-width: 1900px) {
 
+    .wrapper {
+        height: 90%;
+    }
+
     .container.nav {
         margin-top: -5%;
-        height: 80%;
     }
 
     .section.active {
