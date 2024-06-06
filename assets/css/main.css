@@ -646,7 +646,8 @@ br {
     }
 
     .skill-options a {
-        margin-right: 10%;
+        margin-right: 8%;
+        width: 25%;
     }
 
     .nav-options {
