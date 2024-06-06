@@ -603,12 +603,15 @@ br {
 
     .box-content {
         margin-top: 0%;
-        scale: 0.5;
     }
 
     .line2 {
         width: 84%;
         margin-left: 8.3%;
+    }
+
+    .textex h1 {
+        font-size: 1rem;
     }
 
     .skill-rating {
