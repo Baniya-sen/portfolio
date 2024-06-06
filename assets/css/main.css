@@ -587,6 +587,7 @@ br {
 
     .section.active {
         scale: 0.9;
+        margin-top: -2;
     }
 
     .line {
@@ -652,7 +653,7 @@ br {
     }
 
     .about-box {
-        margin: 0 0 -1.6% 0;
+        margin: -4% 0 -1.6% 0;
     }
 
     .about-footers {
