@@ -649,12 +649,13 @@ br {
     }
 
     .text-box {
+        margin-left: 0;
         scale: 0.8;
     }
 
     .text-box p{
-        font-size: 1.24rem;
-        margin-left: 10%;
+        font-size: 1.25rem;
+        margin-left: 7%;
     }
 
     .about-box {
