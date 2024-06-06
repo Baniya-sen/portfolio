@@ -591,12 +591,16 @@ br {
     }
 
     .line {
-        margin: 6% 0 0 25px;
+        margin: 5% 0 0 35px;
         height: 62%;
     }
     
     .dots li p {
         margin: -7px 0 0 20px;
+    }
+
+    .dot {
+        margin-top: 7%;
     }
 
     .dot:nth-child(1) { top: 12%; }
@@ -620,7 +624,11 @@ br {
 
     .hire {
         font-size: 0.8;
-        width: 42%;
+        width: 45%;
+    }
+
+    .hire:hover {
+        width: 50%;
     }
 
     .line2 {
@@ -633,6 +641,7 @@ br {
     }
 
     .skill-options {
+        margin-top: -4%;
         margin-left: 6%;
     }
 
