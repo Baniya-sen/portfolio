@@ -584,9 +584,9 @@ br {
 /* For laptops (1281px - 1900px) */
 @media (min-width: 1281px) and (max-width: 1900px) {
 
-    .wrapper {
-        height: 60%;
-    }
+    /* .wrapper {
+        height: 85%;
+    } */
 
     .section.active {
         scale: 0.9;
@@ -657,7 +657,7 @@ br {
         margin-top: -4%;
         margin-left: 0;
         scale: 0.8;
-        width: 56%;
+        width: 55%;
     }
 
     .text-box p{
