@@ -16,8 +16,8 @@ br {
 }
 
 .wrapper {
-    /* display: flex; */
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .container {
@@ -587,7 +587,6 @@ br {
 
     .wrapper {
         height: 90%;
-        border: 2px red solid;
     }
 
     .section.active {
