@@ -610,10 +610,6 @@ br {
     .dot:nth-child(5) { top: 52%; }
     .dot:nth-child(6) { top: 62%; }
 
-    .box {
-        margin-top: -1%;
-    }
-
     .textex h1 {
         font-size: 4rem;
     }
@@ -666,7 +662,7 @@ br {
     }
 
     .dabba-contact {
-        margin-top: -5%;
+        margin-top: -1%;
     }
 
     .contact-options {
