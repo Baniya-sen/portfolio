@@ -586,7 +586,7 @@ br {
 @media (min-width: 1281px) and (max-width: 1900px) {
 
     .container.nav {
-        margin-top: -15%;
+        margin-top: -5%;
     }
 
     .section.active {
