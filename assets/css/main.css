@@ -585,7 +585,7 @@ br {
 @media (min-width: 1281px) and (max-width: 1900px) {
 
     .wrapper {
-        height: 80%;
+        height: 60%;
     }
 
     .section.active {
@@ -657,11 +657,11 @@ br {
         margin-top: -4%;
         margin-left: 0;
         scale: 0.8;
-        width: 55%;
+        width: 56%;
     }
 
     .text-box p{
-        font-size: 1.4rem;
+        font-size: 1.39rem;
         margin-left: 5%;
     }
 
