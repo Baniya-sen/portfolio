@@ -587,12 +587,12 @@ br {
 
     .content {
         scale: 0.9;
-        margin: -2% 0 0 0;
+        margin: -2% 0 0 -2%;
     }
 
     .line {
-        margin: 5% 0 0 35px;
-        height: 63%;
+        margin: 5% 0 0 25px;
+        height: 62%;
     }
     
     .dots li p {
@@ -632,7 +632,7 @@ br {
     }
 
     .line2 {
-        width: 84%;
+        width: 85%;
         margin-left: 8.3%;
     }
 
@@ -642,8 +642,11 @@ br {
 
     .skill-options {
         margin-top: -2%;
-        margin-left: 6%;
-        margin-right: 4%;
+        margin-left: 8%;
+    }
+
+    .skill-options a {
+        margin-right: 8%;
     }
 
     .nav-options {
