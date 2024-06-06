@@ -586,23 +586,24 @@ br {
 @media (min-width: 1281px) and (max-width: 1900px) {
 
     .line {
-        margin: 6% 0 0 25px;
-        height: 62%;
+        margin: 5% 0 0 25px;
+        height: 61%;
     }
     
     .dots li p {
         margin: -7px 0 0 20px;
     }
 
-    .dot:nth-child(1) { top: 12%; }
-    .dot:nth-child(2) { top: 22%; }
-    .dot:nth-child(3) { top: 32%; }
-    .dot:nth-child(4) { top: 42%; }
-    .dot:nth-child(5) { top: 52%; }
-    .dot:nth-child(6) { top: 62%; }
+    .dot:nth-child(1) { top: 11%; }
+    .dot:nth-child(2) { top: 21%; }
+    .dot:nth-child(3) { top: 31%; }
+    .dot:nth-child(4) { top: 41%; }
+    .dot:nth-child(5) { top: 51%; }
+    .dot:nth-child(6) { top: 61%; }
 
     .box-content {
         margin-top: 0%;
+        scale: 0.5;
     }
 
     .line2 {
