@@ -727,15 +727,15 @@ br {
     }
 } */
 
-@media (min-width: 1025px) and (max-width: 2000px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
 
     .line {
         margin: 6% 0 0 25px;
-        height: 62%;
+        height: 2%;
     }
     
     .dots li p {
-        margin: -7px 0 0 20px;
+        margin: -7px 0 0 100px;
     }
 
     .dot:nth-child(1) { top: 12%; }
