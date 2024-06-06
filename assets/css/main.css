@@ -587,11 +587,8 @@ br {
 
     .wrapper {
         height: 90%;
+        border: 2px red solid;
     }
-
-    /* .container.nav {
-        margin-top: -5%;
-    } */
 
     .section.active {
         scale: 0.9;
