@@ -1,3 +1,35 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Black.eot');
+    src: local('☺'), url('fonts/Montserrat-Black.woff') format('woff'), url('fonts/Montserrat-Black.ttf') format('truetype'), url('fonts/Montserrat-Black.svg') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.eot');
+    src: local('☺'), url('fonts/Montserrat-Bold.woff') format('woff'), url('fonts/Montserrat-Bold.ttf') format('truetype'), url('fonts/Montserrat-Bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.eot');
+    src: local('☺'), url('fonts/Montserrat-Regular.woff') format('woff'), url('fonts/Montserrat-Regular.ttf') format('truetype'), url('fonts/Montserrat-Regular.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Light.eot');
+    src: local('☺'), url('fonts/Montserrat-Light.woff') format('woff'), url('fonts/Montserrat-Light.ttf') format('truetype'), url('fonts/Montserrat-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
 html, body {
     background-color: rgb(12, 12, 12);
     margin: 0;
@@ -585,21 +617,25 @@ br {
 /* For laptops (1281px - 1900px) */
 @media (min-width: 1281px) and (max-width: 1900px) {
 
+    .content {
+        scale: 0.5;
+    }
+
     .line {
-        margin: 5% 0 0 25px;
-        height: 61%;
+        margin: 6% 0 0 25px;
+        height: 62%;
     }
     
     .dots li p {
         margin: -7px 0 0 20px;
     }
 
-    .dot:nth-child(1) { top: 11%; }
-    .dot:nth-child(2) { top: 21%; }
-    .dot:nth-child(3) { top: 31%; }
-    .dot:nth-child(4) { top: 41%; }
-    .dot:nth-child(5) { top: 51%; }
-    .dot:nth-child(6) { top: 61%; }
+    .dot:nth-child(1) { top: 12%; }
+    .dot:nth-child(2) { top: 22%; }
+    .dot:nth-child(3) { top: 32%; }
+    .dot:nth-child(4) { top: 42%; }
+    .dot:nth-child(5) { top: 52%; }
+    .dot:nth-child(6) { top: 62%; }
 
     .box-content {
         margin-top: 0%;
@@ -608,22 +644,6 @@ br {
     .line2 {
         width: 84%;
         margin-left: 8.3%;
-    }
-
-    .textex h1 {
-        font-size: 3.5rem;
-    }
-
-    .hire {
-        font-size: 0.8rem;
-    }
-
-    .box {
-        scale: 0.7;
-    }
-
-    .content-item img {
-        scale: 0.8;
     }
 
     .skill-rating {
