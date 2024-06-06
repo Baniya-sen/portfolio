@@ -614,7 +614,7 @@ br {
 }
 
 
-@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .wrapper {
         margin-top: 1%;
@@ -727,7 +727,7 @@ br {
     }
 }
 
-@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
     .line {
         margin: 6% 0 0 25px;
