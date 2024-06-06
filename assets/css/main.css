@@ -587,12 +587,12 @@ br {
 
     .content {
         scale: 0.9;
-        margin: -2% 0 0 -2%;
+        margin: -2% 0 0 0;
     }
 
     .line {
         margin: 5% 0 0 35px;
-        height: 62%;
+        height: 63%;
     }
     
     .dots li p {
@@ -619,11 +619,11 @@ br {
     }
 
     .content-item {
+        width: 95%;
         height: 85%;
     }
 
     .hire {
-        font-size: 0.8;
         width: 45%;
     }
 
@@ -641,8 +641,9 @@ br {
     }
 
     .skill-options {
-        margin-top: -4%;
+        margin-top: -2%;
         margin-left: 6%;
+        margin-right: 4%;
     }
 
     .nav-options {
