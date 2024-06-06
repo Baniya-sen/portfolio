@@ -422,6 +422,7 @@ br {
     margin: 6% 0 0 10%;
     justify-content: left;
     text-align: left;
+    /* border: 5px blue solid; */
 }
 
 .all-skill {
@@ -584,8 +585,12 @@ br {
 /* For laptops (1281px - 1900px) */
 @media (min-width: 1281px) and (max-width: 1900px) {
 
-    /* .wrapper {
-        height: 85%;
+    .wrapper {
+        height: 90%;
+    }
+
+    /* .container.nav {
+        margin-top: -5%;
     } */
 
     .section.active {
@@ -646,7 +651,7 @@ br {
     }
 
     .nav-options {
-        margin: -40% -6% 0 0;
+        margin: -40% 2% 0 0;
     }
     
     .nav-options.active {
@@ -661,12 +666,8 @@ br {
     }
 
     .text-box p{
-        font-size: 1.39rem;
+        font-size: 1.4rem;
         margin-left: 5%;
-    }
-
-    .skill-rating {
-        margin: 4% 0 0 10%;
     }
 
     .about-box {
