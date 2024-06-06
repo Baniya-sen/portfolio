@@ -652,10 +652,12 @@ br {
 
     .nav-options {
         margin: -40% 2% 0 0;
+        scale: 0.5;
     }
     
     .nav-options.active {
         margin: -40% 7% 0 0;
+        scale: 1;
     }
 
     .text-box {
