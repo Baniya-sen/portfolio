@@ -611,7 +611,15 @@ br {
     }
 
     .textex h1 {
-        font-size: 1rem;
+        font-size: 3.5rem;
+    }
+
+    .hire {
+        font-size: 0.8rem;
+    }
+
+    .content-item img {
+        scale: 0.8;
     }
 
     .skill-rating {
