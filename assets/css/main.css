@@ -727,7 +727,7 @@ br {
     }
 } */
 
-/* @media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
 
     .line {
         margin: 6% 0 0 25px;
@@ -789,4 +789,4 @@ br {
     .contact-options {
         margin: 8% 0 0 17%;
     }
-} */
+}
