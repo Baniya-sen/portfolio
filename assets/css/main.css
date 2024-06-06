@@ -589,9 +589,9 @@ br {
         height: 90%;
     }
 
-    .container.nav {
+    /* .container.nav {
         margin-top: -5%;
-    }
+    } */
 
     .section.active {
         scale: 0.9;
@@ -654,7 +654,7 @@ br {
     }
     
     .nav-options.active {
-        margin: -46% 7% 0 0;
+        margin: -40% 7% 0 0;
     }
 
     .text-box {
