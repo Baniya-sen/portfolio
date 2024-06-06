@@ -587,7 +587,7 @@ br {
 
     .section.active {
         scale: 0.9;
-        margin-top: -4%;
+        margin-top: -6%;
     }
 
     .line {
@@ -611,7 +611,7 @@ br {
     .dot:nth-child(6) { top: 62%; }
 
     .box {
-        margin-top: -4%;
+        margin-top: -2%;
     }
 
     .textex h1 {
@@ -648,8 +648,12 @@ br {
         margin-left: 5%;
     }
 
+    .text-box {
+        scale: 0.8;
+    }
+
     .text-box p{
-        font-size: 1.15rem;
+        font-size: 1.1rem;
         margin-left: 10%;
     }
 
