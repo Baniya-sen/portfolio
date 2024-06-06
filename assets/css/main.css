@@ -587,6 +587,7 @@ br {
 
     .container.nav {
         margin-top: -5%;
+        height: 80%;
     }
 
     .section.active {
@@ -637,7 +638,12 @@ br {
     }
 
     .skill-options {
-        margin-top: -4%;
+        margin-top: -3%;
+        margin-left: 10%;
+    }
+
+    .skill-options a {
+        margin-right: 10%;
     }
 
     .nav-options {
