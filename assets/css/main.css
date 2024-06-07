@@ -1,35 +1,3 @@
-@font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Black.eot');
-    src: local('☺'), url('fonts/Montserrat-Black.woff') format('woff'), url('fonts/Montserrat-Black.ttf') format('truetype'), url('fonts/Montserrat-Black.svg') format('svg');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Bold.eot');
-    src: local('☺'), url('fonts/Montserrat-Bold.woff') format('woff'), url('fonts/Montserrat-Bold.ttf') format('truetype'), url('fonts/Montserrat-Bold.svg') format('svg');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Regular.eot');
-    src: local('☺'), url('fonts/Montserrat-Regular.woff') format('woff'), url('fonts/Montserrat-Regular.ttf') format('truetype'), url('fonts/Montserrat-Regular.svg') format('svg');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Light.eot');
-    src: local('☺'), url('fonts/Montserrat-Light.woff') format('woff'), url('fonts/Montserrat-Light.ttf') format('truetype'), url('fonts/Montserrat-Light.svg') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
 html, body {
     background-color: rgb(12, 12, 12);
     margin: 0;
@@ -48,8 +16,8 @@ br {
 }
 
 .wrapper {
-    /* display: flex; */
     justify-content: space-around;
+    overflow: hidden;
 }
 
 .container {
@@ -64,7 +32,7 @@ br {
 
 .container.nav {
     border: 15px #0625d6 solid;
-    transform: perspective(700px) scale(0.4) translateX(-700px) rotateY(5deg);
+    transform: perspective(700px) scale(0.4) translateX(-600px) rotateY(5deg);
 }
 
 .dabba.off {
@@ -181,7 +149,7 @@ br {
 .line {
     position: absolute;
     transform: translateX(-50%);
-    margin: 3% 0 0 25px;
+    margin: 4% 0 0 25px;
     width: 1px;
     height: 70%;
     background-color: #535353;
@@ -197,7 +165,7 @@ br {
 .dots li p {
     position: absolute;
     width: 100px;
-    margin: -8px 0 0 20px;
+    margin: -5px 0 0 20px;
     font-family: "Comfortaa", sans-serif;
     font-size: 0.95rem;
     cursor: pointer;
@@ -205,7 +173,7 @@ br {
 
 .dot {
     position: absolute;
-    margin: 7% 0 0 25px;
+    margin: 8% 0 0 25px;
     transform: translate(-50%, -50%);
     width: 3px;
     height: 3px;
@@ -680,19 +648,29 @@ br {
 }
 
 
-@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+/* For laptops (1281px - 1900px) */
+@media (min-width: 1281px) and (max-width: 1900px) {
 
     .wrapper {
-        margin-top: 1%;
+        height: 90%;
+    }
+
+    .section.active {
+        scale: 0.9;
+        margin-top: -4%;
     }
 
     .line {
-        margin: 4.8% 0 0 25px;
-        height: 60%;
+        margin: 5% 0 0 25px;
+        height: 61%;
     }
     
     .dots li p {
         margin: -7px 0 0 20px;
+    }
+
+    .dot {
+        margin-top: 7%;
     }
 
     .dot:nth-child(1) { top: 12%; }
@@ -702,25 +680,16 @@ br {
     .dot:nth-child(5) { top: 52%; }
     .dot:nth-child(6) { top: 62%; }
 
-    .container.nav {
-        margin: -5% 0 0 7%;
-    }
-
-    .box-content {
-        margin-top: 0%;
-    }
-
-    .content {
-        width: 95%;
-        height: 80%;
-    }
-
     .textex h1 {
         font-size: 4rem;
     }
 
+    .content-item {
+        width: 95%;
+        height: 85%;
+    }
+
     .hire {
-        margin-top: 10%;
         width: 45%;
     }
 
@@ -729,79 +698,79 @@ br {
     }
 
     .line2 {
-        width: 94%;
+        width: 84%;
         margin-left: 8.3%;
     }
 
     .skill-options {
-        margin-left: 13%;
+        margin-top: -4%;
+        margin-left: 12.5%;
     }
 
     .skill-options a {
+        margin-right: 7%;
         width: 25%;
-        margin-right: 8%;
     }
 
     .nav-options {
-        margin: -40% -8% 0 0;
+        margin: -40% -5% 0 0;
     }
     
     .nav-options.active {
-        margin: -45% 7% 0 0;
-    }
-
-    .options {
-        font-size: 2.2rem;
-    }
-
-    .about-box {
-        scale: 0.8;
-        width: 110%;
-        margin: -5% 0 0 0;
+        margin: -40% 7% 0 0;
     }
 
     .text-box {
-        width:50%;
-        height: 85%;
+        margin-top: -4%;
+        margin-left: 0;
+        scale: 0.8;
+        width: 55%;
     }
-    
-    .text-box img {
-        margin: -2% 0 0 0;
-        scale: 0.7;
+
+    .text-box p{
+        font-size: 1.4rem;
+        margin-left: 5%;
     }
-    
-    .text-box p {
-        font-size: 1.25rem;
-        line-height: 1.4;
+
+    .about-box {
+        margin: 0 0 -1.6% 0;
     }
 
     .about-footers {
-        margin: -7% 0 0 8%;
+        margin: -7% 0 0 2%;
     }
 
-    .contact-box h1 {
-        font-size: 3.5rem;
-    }
-
-    .contact-box p {
-        font-size: 1.25rem;
+    .dabba-contact {
+        margin-top: -1%;
     }
 
     .contact-options {
-        scale: 0.9;
-        margin: 5% 0 0 20%;
+        margin: 8% 0 0 17%;
     }
 }
 
-@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+  /* For smaller laptops (1025px - 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .wrapper {
+        height: 90%;
+    }
+
+    .section.active {
+        scale: 0.9;
+        margin-top: -4%;
+    }
 
     .line {
-        margin: 6% 0 0 25px;
-        height: 62%;
+        margin: 5% 0 0 25px;
+        height: 61%;
     }
     
     .dots li p {
         margin: -7px 0 0 20px;
+    }
+
+    .dot {
+        margin-top: 7%;
     }
 
     .dot:nth-child(1) { top: 12%; }
@@ -811,21 +780,36 @@ br {
     .dot:nth-child(5) { top: 52%; }
     .dot:nth-child(6) { top: 62%; }
 
-    .box-content {
-        margin-top: 0%;
+    .textex h1 {
+        font-size: 4rem;
+    }
+
+    .content-item {
+        width: 95%;
+        height: 85%;
+    }
+
+    .hire {
+        width: 45%;
+    }
+
+    .hire:hover {
+        width: 50%;
     }
 
     .line2 {
-        width: 84%;
+        width: 85%;
         margin-left: 8.3%;
     }
 
-    .skill-rating {
-        margin: 6.2% 0 0 10%;
+    .skill-options {
+        margin-top: -4%;
+        margin-left: 12.5%;
     }
 
-    .skill-options {
-        margin-left: 6%;
+    .skill-options a {
+        margin-right: 7%;
+        width: 25%;
     }
 
     .nav-options {
@@ -833,15 +817,19 @@ br {
     }
     
     .nav-options.active {
-        margin: -40% 11% 0 0;
+        margin: -40% 7% 0 0;
     }
 
     .text-box {
-        margin-left: 5%;
+        margin-top: -4%;
+        margin-left: 0;
+        scale: 0.8;
+        width: 55%;
     }
 
     .text-box p{
-        margin-left: 10%;
+        font-size: 1.4rem;
+        margin-left: 5%;
     }
 
     .about-box {
@@ -849,10 +837,29 @@ br {
     }
 
     .about-footers {
-        margin: 1% 0 0 5%;
+        margin: -7% 0 0 2%;
+    }
+
+    .dabba-contact {
+        margin-top: -1%;
     }
 
     .contact-options {
         margin: 8% 0 0 17%;
     }
+}
+
+/* For tablets (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+/* styles here */
+}
+
+/* For mobile devices (480px - 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+/* styles here */
+}
+
+/* For very small screens (less than 480px) */
+@media (max-width: 480px) {
+/* styles here */
 }
