@@ -686,16 +686,25 @@ br {
   /* For smaller laptops (1025px - 1280px) */
 @media (min-width: 1025px) and (max-width: 1280px) {
     .wrapper {
-        margin-top: 1%;
+        height: 90%;
+    }
+
+    .section.active {
+        scale: 0.9;
+        margin-top: -4%;
     }
 
     .line {
-        margin: 4.8% 0 0 25px;
+        margin: 5% 0 0 25px;
         height: 60%;
     }
     
     .dots li p {
         margin: -7px 0 0 20px;
+    }
+
+    .dot {
+        margin-top: 7%;
     }
 
     .dot:nth-child(1) { top: 12%; }
@@ -705,25 +714,16 @@ br {
     .dot:nth-child(5) { top: 52%; }
     .dot:nth-child(6) { top: 62%; }
 
-    .container.nav {
-        margin: -5% 0 0 7%;
-    }
-
-    .box-content {
-        margin-top: 0%;
-    }
-
-    .content {
-        width: 95%;
-        height: 80%;
-    }
-
     .textex h1 {
         font-size: 4rem;
     }
 
+    .content-item {
+        width: 95%;
+        height: 85%;
+    }
+
     .hire {
-        margin-top: 10%;
         width: 45%;
     }
 
@@ -732,67 +732,54 @@ br {
     }
 
     .line2 {
-        width: 94%;
+        width: 85%;
         margin-left: 8.3%;
     }
 
     .skill-options {
-        margin-left: 13%;
+        margin-top: -4%;
+        margin-left: 12.5%;
     }
 
     .skill-options a {
+        margin-right: 7%;
         width: 25%;
-        margin-right: 8%;
     }
 
     .nav-options {
-        margin: -40% -8% 0 0;
+        margin: -40% 2% 0 0;
     }
     
     .nav-options.active {
-        margin: -45% 7% 0 0;
-    }
-
-    .options {
-        font-size: 2.2rem;
-    }
-
-    .about-box {
-        scale: 0.8;
-        width: 110%;
-        margin: -5% 0 0 0;
+        margin: -40% 7% 0 0;
     }
 
     .text-box {
-        width:50%;
-        height: 85%;
+        margin-top: -4%;
+        margin-left: 0;
+        scale: 0.8;
+        width: 55%;
     }
-    
-    .text-box img {
-        margin: -2% 0 0 0;
-        scale: 0.7;
+
+    .text-box p{
+        font-size: 1.4rem;
+        margin-left: 5%;
     }
-    
-    .text-box p {
-        font-size: 1.25rem;
-        line-height: 1.4;
+
+    .about-box {
+        margin: 0 0 -1.6% 0;
     }
 
     .about-footers {
-        margin: -7% 0 0 8%;
+        margin: -7% 0 0 2%;
     }
 
-    .contact-box h1 {
-        font-size: 3.5rem;
-    }
-
-    .contact-box p {
-        font-size: 1.25rem;
+    .dabba-contact {
+        margin-top: -1%;
     }
 
     .contact-options {
-        scale: 0.9;
-        margin: 5% 0 0 20%;
+        margin: 8% 0 0 17%;
     }
 }
 
