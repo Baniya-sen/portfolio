@@ -743,8 +743,19 @@ br {
     }
 
     .project-box {
-        margin-top: 0%;
         height: 90%;
+    }
+
+    .project-data-p {
+        height: 95%;
+    }
+
+    .project-techs {
+        height: 95%;
+    }
+
+    .project-data-s {
+        height: 95%;
     }
 
     .dabba-contact {
