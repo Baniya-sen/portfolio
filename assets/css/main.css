@@ -85,10 +85,12 @@ br {
     padding: 20px;
     margin: -45% 5% 0 0;
     opacity: 0;
+    pointer-events: none;
     transition: all 0.2s ease-in-out;
 }
 
 .nav-options.active {
+    pointer-events: all;
     opacity: 1;
     margin: -40% 11% 0 0;
 }
@@ -741,7 +743,7 @@ br {
     }
 
     .project-box {
-        margin-top: 4%;
+        margin-top: 2%;
         height: 90%;
     }
 
