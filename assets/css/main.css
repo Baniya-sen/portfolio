@@ -553,6 +553,11 @@ br {
     font-size: 0.9rem;
 }
 
+.project-p-header img {
+    width: 250px;
+    height: 250px;
+}
+
 .project-techs {
     width: 30%;
     display: flex;
