@@ -526,21 +526,22 @@ br {
     width: 40%;
     padding: 5px;
     justify-content: space-around;
-    border-radius: 10px;
+    border-radius: 10   px;
     border: 2px #007bff solid;
 }
 
 .project-p-header {
     display: flex;
+    padding: 0;
     justify-content: space-around;
-    border: 2px yellow solid;
+    /* border: 2px yellow solid; */
 }
 
 .project-count {
     display: inline-block;
     text-align: left;
-    height: 100%;
-    line-height: 0.1;
+    width: 50%;
+    line-height: 0;
     padding: 0;
     margin: 0;
 }
@@ -551,11 +552,16 @@ br {
 
 .project-count p {
     font-size: 0.9rem;
+    line-height: 1.4;
+    color: rgb(196, 173, 39);
+}
+
+.project-count img {
+    height: 100px;
 }
 
 .project-p-header img {
     width: 250px;
-    height: 250px;
 }
 
 .project-techs {
