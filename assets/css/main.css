@@ -886,10 +886,24 @@ br {
         padding-left: 5px;
         border-radius: 5px;
     }
+
+    .project-count {
+        width: 55%;
+    }
+
+    .project-count h3 {
+        font-size: 0.95rem;
+        margin-left: 4%;
+    }
+    
+    .project-count p {
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
     
     .project-count img {
         width: 100%;
-        border-left: 1px rgb(155, 146, 62) solid;
+        height: 55%;
     }
     
     .project-p-header #p-visual {
@@ -899,7 +913,7 @@ br {
     }
 
     .line-separator {
-        margin: 2% 0 3% 1px;
+        margin: 0 0 3% 1px;
     }
 
     .project-panel {
