@@ -932,7 +932,7 @@ br {
 
     .panel-text h4 {
         font-size: 0.8rem;
-        margin-top: 3.5%;
+        margin-top: 4.5%;
     }
     
     .panel-text p {
@@ -941,7 +941,7 @@ br {
     }
     
     .use-tech {
-        padding: 10px 0 0 5px;
+        padding: 5px 0 0 5px;
     }
 
     .project-techs {
