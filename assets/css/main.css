@@ -882,6 +882,52 @@ br {
         height: 98%;
     }
 
+    .project-p-header img {
+        padding-left: 5px;
+        border-radius: 5px;
+    }
+    
+    .project-count img {
+        width: 100%;
+        border-left: 1px rgb(155, 146, 62) solid;
+    }
+    
+    .project-p-header #p-visual {
+        width: 50%;
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    .line-separator {
+        margin: 2% 0 3% 1px;
+    }
+
+    .project-panel {
+        height: 85px;
+    }
+
+    .project-panel:nth-child(5) { display: none; }
+
+    .panel-text {
+        width: 65%;
+        padding-left: 2px;
+        border-left: 1px rgb(129, 129, 129) solid;
+    }
+
+    .panel-text h4 {
+        font-size: 0.8rem;
+        line-height: 0;
+    }
+    
+    .panel-text p {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+    
+    .use-tech {
+        padding: 10px 0 0 5px;
+    }
+
     .project-techs {
         height: 98%;
     }
