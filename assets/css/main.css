@@ -888,7 +888,7 @@ br {
     }
 
     .project-count {
-        width: 55%;
+        width: 60%;
     }
 
     .project-count h3 {
@@ -897,13 +897,13 @@ br {
     }
     
     .project-count p {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         line-height: 1.2;
     }
     
     .project-count img {
         width: 100%;
-        height: 55%;
+        height: 50%;
     }
     
     .project-p-header #p-visual {
@@ -937,7 +937,7 @@ br {
     
     .panel-text p {
         font-size: 0.8rem;
-        line-height: 1.4;
+        line-height: 1.2;
     }
     
     .use-tech {
