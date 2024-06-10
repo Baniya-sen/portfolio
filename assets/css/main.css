@@ -529,7 +529,6 @@ br {
     padding: 5px;
     justify-content: space-around;
     overflow: hidden;
-    box-sizing: border-box;
     border-radius: 10px;
     /* border: 2px #007bff solid; */
 }
