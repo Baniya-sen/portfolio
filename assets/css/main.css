@@ -939,6 +939,19 @@ br {
         margin: 0 0 -1.6% 0;
     }
 
+    .skill-rating {
+        width: 35%;
+    }
+    
+    .all-skill {
+        padding: 4px;
+        margin-top: 15%;
+    }
+    
+    .all-skill li {
+        font-size: 2rem;
+    }
+
     .about-footers {
         margin: -7% 0 0 2%;
     }
