@@ -951,11 +951,15 @@ br {
     
     .all-skill {
         padding: 4px;
-        margin-top: 15%;
+        margin-top: 9%;
     }
     
     .all-skill li {
         font-size: 2rem;
+    }
+
+    .social-links {
+        margin-top: -2%;
     }
 
     .about-footers {
@@ -1046,6 +1050,17 @@ br {
         height: 98%;
     }
 
+    .s-data-footer {
+        width: 90%;
+        height: 10%;
+        padding: 5px;
+    }
+
+    .s-data-footer a {
+        margin: -5% 0 0 0;
+        font-size: 0.85rem;
+    }
+
     .dabba-contact {
         margin-top: -1%;
     }
@@ -1057,6 +1072,10 @@ br {
 
     .contact-options {
         margin: 8% 0 0 17%;
+    }
+
+    .contact-icon {
+        scale: 0.9;
     }
 }
 
