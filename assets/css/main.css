@@ -860,7 +860,7 @@ br {
 
     .section.active {
         scale: 0.9;
-        margin-top: -4%;
+        margin-top: -5%;
     }
 
     .line {
@@ -931,7 +931,7 @@ br {
     }
 
     .text-box p{
-        font-size: 1.4rem;
+        font-size: 1.36rem;
         margin-left: 5%;
     }
 
@@ -940,7 +940,7 @@ br {
     }
 
     .about-footers {
-        margin: -7% 0 0 2%;
+        margin: -9% 0 0 2%;
     }
 
     .project-box {
@@ -1035,7 +1035,7 @@ br {
     }
 }
 
-/* For laptops (1281px - 1500px) */
+/* For laptops (1281px - 1537px) */
 @media (min-width: 1281px) and (max-width: 1537px) {
 
     .wrapper {
