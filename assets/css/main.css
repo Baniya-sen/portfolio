@@ -855,11 +855,16 @@ br {
 @media (min-width: 1538px) and (max-width: 1794px) {
 
     .wrapper {
-        height: 90%;
+        height: 95%;
+    }
+
+    .box-content {
+        width: 80%;
+        height: 680px;
+        overflow: visible;
     }
 
     .section.active {
-        scale: 0.9;
         margin-top: -5%;
     }
 
