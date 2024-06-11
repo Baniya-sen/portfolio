@@ -851,8 +851,8 @@ br {
 }
 
 
-/* For laptops (1501px - 1900px) */
-@media (min-width: 1601px) and (max-width: 1800px) {
+/* For laptops (1538px - 1794px) */
+@media (min-width: 1538px) and (max-width: 1794px) {
 
     .wrapper {
         height: 90%;
@@ -1036,7 +1036,7 @@ br {
 }
 
 /* For laptops (1281px - 1500px) */
-@media (min-width: 1281px) and (max-width: 1600px) {
+@media (min-width: 1281px) and (max-width: 1537px) {
 
     .wrapper {
         height: 90%;
