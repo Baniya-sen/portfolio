@@ -702,7 +702,7 @@ br {
 
 .project-data-s {
     width: 25%;
-    padding: 5px 0 4px 4px;
+    padding: 5px 5px 4px 4px;
     border-radius: 10px;
     box-sizing: border-box;
     border-top: 2px blue solid;
