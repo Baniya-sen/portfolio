@@ -940,7 +940,7 @@ br {
     }
 
     .about-footers {
-        margin: -9% 0 0 2%;
+        margin: -7% 0 0 2%;
     }
 
     .project-box {
@@ -1028,6 +1028,11 @@ br {
 
     .dabba-contact {
         margin-top: -1%;
+    }
+
+    .contact-box {
+        width: 60%;
+        margin: 6% 0 0 8%;
     }
 
     .contact-options {
