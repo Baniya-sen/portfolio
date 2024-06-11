@@ -866,7 +866,7 @@ br {
 
     .section.active {
         scale: 1.02;
-        margin-top: -5%;
+        margin-top: -3%;
     }
 
     .line {
