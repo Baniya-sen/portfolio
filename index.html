@@ -211,17 +211,45 @@
                                 </div>
                             </div>
                             <div class="project-techs">
-                                <div class="project-data-d"></div>
+                                <div class="project-data-d">
+                                    <div class="dr-discovery-analysis">
+                                        <pre class="script">
+                                            <code>
+plt.title('Percentage of Monthly Deaths over Time', fontsize=18)
+ax.xaxis.set_major_locator(years)
+ax.xaxis.set_major_formatter(years_fmt)
+ax.xaxis.set_minor_locator(months)
+ax.set_xlim([df_monthly.date.min(), df_monthly.date.max()])
+plt.legend(handles=[ma_line, bw_line, aw_line], fontsize=18)
+                                            </code>
+                                        </pre>
+                                        <img src="assets/img/monthly death over time before after handwash b.png" alt="">
+                                    </div>
+                                </div>
                                 <div class="technologies">
                                     <ul class="techs">
                                         <li>Python</li>
                                         <li>Backend</li>
                                         <li>Frontend</li>
-                                        <li>Data Analyst</li>
+                                        <li>Data Analysis</li>
                                         <li>Machine Learning</li>
                                     </ul>
                                 </div>
-                                <div class="project-data-ml"></div>
+                                <div class="project-data-ml">
+                                    <pre class="script">
+                                        <code>
+sns.regplot(x=y_train, y=pred_y_train, ax=axs[0])
+axs[0].set_title("Regression Plot", fontsize=28)
+axs[0].set_xlabel("X1")
+axs[0].set_ylabel("Y1")
+sns.regplot(x=y_train2, y=y_pred_train2, ax=axs[1])
+axs[1].set_title("Regression Plot Residue", fontsize=24)
+axs[1].set_xlabel("X2")
+axs[1].set_ylabel("Y2")
+                                        </code>
+                                    </pre>
+                                    <img src="assets/img/regression_plot.png" alt="">
+                                </div>
                             </div>
                             <div class="project-data-s">
                                 <div class="website-projects">
@@ -238,7 +266,7 @@
                                 </div>
                                 <div class="s-data-footer">
                                     <img src="assets/img/icons8-github.svg" alt="all-project-footer">
-                                    <a href=""><h3>Find all projects on GitHub!</h3></a>
+                                    <a href="https://github.com/Baniya-sen" target="_blank"><h3>Find all projects on GitHub!</h3></a>
                                 </div>
                             </div>
                         </div>
