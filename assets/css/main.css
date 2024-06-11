@@ -965,6 +965,7 @@ br {
     .project-box {
         margin-top: 2%;
         height: 90%;
+        scale: 0.96;
     }
 
     .project-data-p {
