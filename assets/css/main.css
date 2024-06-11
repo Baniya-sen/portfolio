@@ -852,7 +852,7 @@ br {
 
 
 /* For laptops (1501px - 1900px) */
-@media (min-width: 1601px) and (max-width: 1900px) {
+@media (min-width: 1601px) and (max-width: 1800px) {
 
     .wrapper {
         height: 90%;
