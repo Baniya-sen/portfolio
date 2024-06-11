@@ -1057,12 +1057,16 @@ br {
     .s-data-footer {
         width: 90%;
         height: 10%;
-        padding: 5px;
+        margin-top: 2%;
     }
 
     .s-data-footer a {
         margin: -5% 0 0 0;
         font-size: 0.85rem;
+    }
+
+    .s-data-footer img {
+        width: 15%;
     }
 
     .dabba-contact {
