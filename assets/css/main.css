@@ -53,11 +53,12 @@ br {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: opacity 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 .nav-toggle.active {
     opacity: 0;
+    pointer-events: none;
     transition: opacity 0.1s ease-in-out;
 }
   
@@ -920,6 +921,10 @@ br {
 
     .text-box p{
         font-size: 1.28rem;
+    }
+
+    .basic-web {
+        margin-top: 11%;
     }
 }
 
