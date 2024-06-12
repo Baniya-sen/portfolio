@@ -1086,6 +1086,22 @@ br {
         height: 98%;
     }
 
+    .script {
+        font-size: 0.65rem;
+        line-height: 1.2;
+        margin-top: -4%;
+    }
+    
+    .dr-discovery-analysis img {
+        margin-top: -7%;
+        width: 88%;
+    }
+
+    .project-data-ml img {
+    margin-top: -7%;
+    width: 88%;
+    }
+
     .basic-web {
         margin-top: 6%;
     }
