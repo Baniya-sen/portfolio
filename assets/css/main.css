@@ -886,6 +886,43 @@ br {
     scale: 0.94;
 }
 
+/* For High-end laptops and Desktops (1795px - 1900px) */
+@media (min-width: 1795px) and (max-width: 1900px) {
+
+    .wrapper {
+        height: 95%;
+    }
+
+    .nav-bar {
+        margin: 8px 8.5% 0 0;
+    }
+
+    .box-content {
+        width: 80%;
+        margin: 2% 0 0 10%;
+        height: 680px;
+        overflow: visible;
+    }
+
+    .section.active {
+        scale: 1.02;
+        margin-top: -3%;
+    }
+
+    .line2 {
+        width: 79%;
+        margin-left: 8.3%;
+    }
+
+    .text-box {
+        margin-top: 0%;
+    }
+
+    .text-box p{
+        font-size: 1.28rem;
+    }
+}
+
 
 /* For laptops (1538px - 1794px) */
 @media (min-width: 1538px) and (max-width: 1794px) {
