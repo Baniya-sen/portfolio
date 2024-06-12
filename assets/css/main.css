@@ -1184,7 +1184,12 @@ br {
 /* For laptops (1281px - 1537px) */
 @media (min-width: 1281px) and (max-width: 1537px) {
 
+    .wrapper {
+        height: 95%;
+    }
+
     .box-content {
+        margin: 0% 0 0 9%;
         width: 85%;
         height: 620px;
     }
@@ -1194,8 +1199,8 @@ br {
     }
 
     .line {
-        margin: 5% 0 0 25px;
-        height: 61%;
+        margin: 2% 0 0 25px;
+        height: 70%;
     }
 
     .textex h1 {
@@ -1216,12 +1221,13 @@ br {
     }
 
     .line2 {
-        width: 89%;
+        width: 78%;
         margin-left: 8.3%;
     }
 
     .skill-options {
-        margin-left: 11.5%;
+        margin-top: 0;
+        margin-left: 2.5%;
     }
 
     .text-box {
@@ -1235,12 +1241,20 @@ br {
         margin-left: 5%;
     }
     
-    .all-skill {
-        margin-top: 0%;
+    .skill-options {
+        margin-top: -3%;
+    }
+
+    .text-box p {
+        font-size: 1.45rem;
     }
     
     .all-skill li {
         font-size: 1.8rem;
+    }
+
+    .about-footers {
+        margin-top: -6%;
     }
 
     .project-box {
@@ -1314,8 +1328,28 @@ br {
         padding: 15px 0 0 5px;
     }
 
+    .basic-web {
+        margin-top: 4%;
+    }
+
     .use-tech ul {
         font-size: 0.7rem;
+    }
+
+    .script {
+        font-size: 0.66rem;
+        line-height: 1.2;
+        margin-top: -4%;
+    }
+    
+    .dr-discovery-analysis img {
+        margin-top: -7%;
+        width: 94%;
+    }
+
+    .project-data-ml img {
+    margin-top: -7%;
+    width: 94%;
     }
 
     .project-techs {
