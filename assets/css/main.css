@@ -525,6 +525,9 @@ br {
 
 /* Data Science */
 .ds-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 99%;
     height: 99%;
     padding: 15px 5px 5px 5px;
@@ -532,6 +535,73 @@ br {
     box-sizing: border-box;
     border: 1px red solid;
 }
+
+.ds-header {
+    display: flex;
+    flex-direction: column;
+    height: 17%;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px yellow solid; */
+}
+
+.ds-timeline {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 25%;
+    padding: 0;
+    margin: -0.5% 0 0 0;
+    font-size: 0.8rem;
+    /* border: 1px yellow solid; */
+}
+
+.ds-timeline:nth-child(3) {
+    width: 70%;
+    margin: -0.5% 0 0 3%;
+}
+
+.ds-timeline p {
+    cursor: pointer;
+}
+
+.ds-header img {
+    width: 60%;
+    padding: 0;
+    margin: 0 0 0 7.5%;
+}
+
+.ds-body-tab {
+    width: 99.8%;
+    height: 80%;
+    /* border: 1px yellow solid; */
+}
+
+.ds-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 99.8%;
+    height: 99.9%;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px red solid; */
+}
+
+.ds-section {
+    display: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 99.9%;
+    height: 99.5%;
+    border: 2px yellow solid;
+}
+
+.ds-section.active {
+    display: block;
+}
+
 
 
 /* Developement */
@@ -560,7 +630,7 @@ br {
 .dev-lang-header {
     float: right;
     width: 30%;
-    margin: 5px 2% -5% 0;
+    margin: 5px 0.6% -5% 0;
     padding: 0;
 }
 
@@ -662,15 +732,20 @@ br {
     margin: 1% 0 0 0;
     font-family: 'Montserrat';
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: 900;
     text-transform: uppercase;
+    color: rgb(238, 238, 238);
+}
+
+.f-head::first-letter, .web-app-head::first-letter {
+    text-decoration: underline;
 }
 
 .dev-f-line {
     display: inline-block;
     padding: 0;
     margin: 0;
-    width: 81.7%;
+    width: 82%;
     height: 2px;
     background-color: #535353;
     opacity: 0.6;
@@ -709,7 +784,7 @@ br {
 }
 
 .web-app-head {
-    margin-top: 2.5%;
+    margin-top: 2%;
 }
 
 .dev-web-apps {
