@@ -637,7 +637,7 @@ br {
     color: #4fd112;
 }
 
-.dev-finance, .dev-web-apps {
+.dev-finance {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -696,6 +696,43 @@ br {
     height: 2px;
     background-color: #535353;
     opacity: 0.6;
+}
+
+.web-app-head {
+    margin-top: 2.5%;
+}
+
+.dev-web-apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+}
+
+.web-box {
+    width: auto;
+    line-height: 0;
+    padding: 5px 0 0 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.web-box h4 {
+    padding: 15px 0 15px 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    color: #ca9c1d;
+}
+
+.dev-web-apps img {
+    height: 200px;
+    width: auto;
+    margin: 2% 0 0 0;
+    border-radius: 5px;
 }
 
 
@@ -1253,21 +1290,15 @@ br {
     }
 
     .f-head, .web-app-head {
-        display: inline-block;
-        padding: 0;
-        margin: 1% 0 0 0;
-        font-family: 'Montserrat';
         font-size: 1.35rem;
-        font-weight: 800;
-        text-transform: uppercase;
     }
     
     .dev-f-line {
-        width: 81%;
+        width: 82%;
     }
     
     .dev-w-line {
-        width: 57%;
+        width: 58%;
     }
 
     .project-box {
