@@ -1294,11 +1294,19 @@ br {
     }
     
     .dev-f-line {
-        width: 82%;
+        width: 81%;
     }
     
     .dev-w-line {
-        width: 58%;
+        width: 57%;
+    }
+
+    .web-app-head {
+        margin-top: 2%;
+    }
+    
+    .dev-web-apps img {
+        height: 180px;
     }
 
     .project-box {
