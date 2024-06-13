@@ -539,9 +539,11 @@ br {
     padding: 0 0 0 10px;
     font-family: 'Oswald';
     font-size: 1.1em;
+    color: rgb(236, 236, 236);
     box-sizing: border-box;
     border-radius: 10px;
     border-left: 2px rgb(29, 14, 160) solid;
+    opacity: 0.9;
 }
 
 .dev-lang-header {
@@ -566,24 +568,24 @@ br {
 
 }
 .lang-line:nth-child(1) {
-    width: 45%;
+    width: 36.4%;
     height: 9px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background-color: #127bd1;
 }
 .lang-line:nth-child(2) {
-    width: 40%;
+    width: 28.6%;
     height: 9px;
     background-color: #ac2727;
 }
 .lang-line:nth-child(3) {
-    width: 5%;
+    width: 24.1%;
     height: 9px;
     background-color: #d1be12;
 }
 .lang-line:nth-child(4) {
-    width: 2%;
+    width: 10.9%;
     height: 9px;
     background-color: #4fd112;
     border-top-right-radius: 5px;
@@ -635,7 +637,7 @@ br {
     color: #4fd112;
 }
 
-.dev-finance {
+.dev-finance, .dev-web-apps {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -643,7 +645,7 @@ br {
     box-sizing: border-box;
 }
 
-.f-head {
+.f-head, .web-app-head {
     display: inline-block;
     padding: 0;
     margin: 1% 0 0 0;
@@ -657,7 +659,7 @@ br {
     display: inline-block;
     padding: 0;
     margin: 0;
-    width: 81.2%;
+    width: 81.7%;
     height: 2px;
     background-color: #535353;
     opacity: 0.6;
@@ -684,6 +686,16 @@ br {
     margin: 2% 0 0 0;
     width: 100%;
     border-radius: 2px;
+}
+
+.dev-w-line {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 58%;
+    height: 2px;
+    background-color: #535353;
+    opacity: 0.6;
 }
 
 
