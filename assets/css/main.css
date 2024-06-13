@@ -1111,6 +1111,15 @@ br {
     .basic-web {
         margin-top: 11%;
     }
+
+    .developement-box {
+        scale: 0.95;
+    }
+
+    .dev-header {
+        width: 45%;
+        font-size: 1.25em;
+    }
 }
 
 
@@ -1227,6 +1236,38 @@ br {
 
     .about-footers {
         margin: -7% 0 0 2%;
+    }
+
+    .developement-box {
+        scale: 0.95;
+    }
+
+    .dev-header {
+        width: 50%;
+        font-size: 1.2em;
+    }
+
+    .dev-lang-header {
+        width: 35%;
+        margin: 5px 1% -5% 0;
+    }
+
+    .f-head, .web-app-head {
+        display: inline-block;
+        padding: 0;
+        margin: 1% 0 0 0;
+        font-family: 'Montserrat';
+        font-size: 1.35rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    
+    .dev-f-line {
+        width: 81%;
+    }
+    
+    .dev-w-line {
+        width: 57%;
     }
 
     .project-box {
