@@ -533,7 +533,7 @@ br {
     padding: 15px 5px 5px 5px;
     text-align: left;
     box-sizing: border-box;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 .ds-header {
@@ -603,12 +603,13 @@ br {
 
 .ds-section {
     display: none;
-    padding: 0;
+    padding: 0 0 0 20px;
     margin: 0;
     overflow: hidden;
     width: 99.9%;
     height: 99.5%;
-    border: 2px yellow solid;
+    box-sizing: border-box;
+    /* border: 2px yellow solid; */
 }
 
 .ds-section.active {
@@ -641,6 +642,95 @@ br {
         opacity: 0;
         transform: translateX(-40px);
     }
+}
+
+.nobel-data {
+    display: flex;
+    justify-content: space-around;
+    width: 99.8%;
+    height: 99.7%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px blue solid;
+}
+
+.nobel-by-category {
+    height: 35%;
+    padding: 0;
+    text-align: left;
+}
+
+.nobel-by-category img {
+    height: 90%;
+    border-radius: 10px;
+}
+
+.read-data, .nan-nobel {
+    width: 40%;
+    height: 45%;
+    /* border: 1px red solid; */
+}
+.read-data p, .nan-nobel p {
+    width: 55%;
+    padding: 4px 4px 4px 10px;
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Consolas';
+    font-size: 0.75rem;
+}
+
+.data-nobel {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9px;
+}
+.data-nobel th, td {
+    border: 1px solid #504b3e;
+    text-align: left;
+    padding: 5px;
+    white-space: nowrap;
+}
+.data-nobel th {
+    background-color: #333335;
+}
+.data-nobel tr:nth-child(even) {
+    background-color: #1c1c1c;
+}
+
+.nan-nobel {
+    width: 20%;
+    height: 55%;
+    /* border: 1px red solid; */
+}
+.nan-nobel p {
+    width: 90%;
+    padding: 4px 4px 4px 10px;
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Consolas';
+    font-size: 0.75rem;
+}
+
+.nan-data-nobel {
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 9px;
+}
+.nan-data-nobel th, td {
+    border: 1px solid #504b3e;
+    text-align: left;
+    padding: 5px;
+    white-space: nowrap;
+}
+.nan-data-nobel th {
+    background-color: #333335;
+}
+.nan-data-nobel tr:nth-child(even) {
+    background-color: #1c1c1c;
 }
 
 

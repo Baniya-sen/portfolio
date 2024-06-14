@@ -132,13 +132,114 @@
                             <div class="ds-body-tab">
                                 <ul class="ds-content">
                                     <li class="ds-section active">
-                                        1.
+                                        <div class="nobel-data">
+                                            <div class="read-data">
+                                                <p>df_data = pd.read_csv('nobel_prize_data.csv')<br>df_data.head(5)</p>
+                                                <table class="data-nobel" border="1">
+                                                    <tr>
+                                                        <th>Year</th>
+                                                        <th>Category</th>
+                                                        <th>Prize Share</th>
+                                                        <th>Full Name</th>
+                                                        <th>Birth Date</th>
+                                                        <th>Sex</th>
+                                                        <th>...</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1901</td>
+                                                        <td>Chemistry</td>
+                                                        <td>1/1</td>
+                                                        <td>Jacobus Henricus van 't Hoff</td>
+                                                        <td>1852-08-30</td>
+                                                        <td>Male</td>
+                                                        <td>...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1901</td>
+                                                        <td>Literature</td>
+                                                        <td>1/1</td>
+                                                        <td>Sully Prudhomme</td>
+                                                        <td>1839-03-16</td>
+                                                        <td>Male</td>
+                                                        <td>...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1901</td>
+                                                        <td>Medicine</td>
+                                                        <td>1/1</td>
+                                                        <td>Emil Adolf von Behring</td>
+                                                        <td>1854-03-15</td>
+                                                        <td>Male</td>
+                                                        <td>...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1901</td>
+                                                        <td>Peace</td>
+                                                        <td>1/2</td>
+                                                        <td>Frédéric Passy</td>
+                                                        <td>1822-05-20</td>
+                                                        <td>Male</td>
+                                                        <td>...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>1901</td>
+                                                        <td>Peace</td>
+                                                        <td>1/2</td>
+                                                        <td>Jean Henry Dunant</td>
+                                                        <td>1828-05-08</td>
+                                                        <td>Male</td>
+                                                        <td>...</td>
+                                                    </tr>
+                                                </table>                                                
+                                            </div>
+                                            <div class="nobel-by-category">
+                                                <h4>Nobel Price Awards By Category</h4>
+                                                <img src="assets/img/nobel_award_project/price_category.png" alt="">
+                                            </div>
+                                            <div class="nan-nobel">
+                                                <p>nan_counts = df_data.isna().sum()<br>nan_counts[nan_counts > 0]</p>
+                                                <table class="nan-data-nobel" border="1">
+                                                    <tr>
+                                                        <th>Columns</th>
+                                                        <th>NaN Values</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Year</td>
+                                                        <td>0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Category</td>
+                                                        <td>0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Prize Share</td>
+                                                        <td>0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Full Name</td>
+                                                        <td>0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Birth Date</td>
+                                                        <td>28</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Sex</td>
+                                                        <td>28</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>...</td>
+                                                        <td>...</td>
+                                                    </tr>
+                                                </table>  
+                                            </div>
+                                        </div>
                                     </li>
                                     <li class="ds-section">
                                         2.
                                     </li>
-                                    <li class="ds-section">3.</li>
-                                    <li class="ds-section">4.</li>
+                                    <li class="ds-section"></li>
+                                    <li class="ds-section"></li>
                                     <li class="ds-section"></li>
                                     <li class="ds-section"></li>
                                     <li class="ds-section"></li>
