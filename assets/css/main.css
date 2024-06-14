@@ -552,7 +552,6 @@ br {
     height: 25%;
     padding: 0;
     margin: -0.5% 0 0 0;
-    font-size: 0.8rem;
     /* border: 1px yellow solid; */
 }
 
@@ -561,14 +560,28 @@ br {
     margin: -0.5% 0 0 3%;
 }
 
-.ds-timeline p {
+.ds-projects {
+    font-family: 'Montserrat';
+    font-size: 0.72rem;
+    font-weight: 500;
+    text-transform: uppercase;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.ds-projects::first-letter {
+    text-decoration: underline;
+}
+
+.ds-projects.active {
+    color: rgb(50, 125, 230);
 }
 
 .ds-header img {
     width: 60%;
     padding: 0;
     margin: 0 0 0 7.5%;
+    opacity: 0.5;
 }
 
 .ds-body-tab {
@@ -599,7 +612,35 @@ br {
 }
 
 .ds-section.active {
-    display: block;
+    display: inline-block;
+}
+
+.ds-section.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.ds-section.active.fade-out {
+    animation: fadeOutRight 0.5s ease-in-out;
+}
+
+@keyframes fadeOutRight {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
 }
 
 

@@ -77,3 +77,26 @@ navOptions.forEach((option, index) => {
             }, 400);
   });
 });
+
+
+const ds_Pro = document.querySelectorAll('.ds-projects');
+const ds_Sections = document.querySelectorAll('.ds-section');
+
+ds_Pro.forEach((ds, index) => {
+    ds.addEventListener('click', () => {
+        if (!ds.classList.contains('active')) {
+            ds_Pro.forEach(ds => ds.classList.remove('active'));
+            ds.classList.add('active');
+
+            const currentSection = document.querySelector('.ds-section.active');
+            currentSection.classList.add('fade-out');
+            setTimeout(() => {currentSection.classList.remove('active')}, 350);
+
+            ds_Sections[index].classList.add('fade-in');
+            setTimeout(() => {
+                ds_Sections.forEach(section => section.classList.remove('fade-out'));
+                ds_Sections[index].classList.add('active');
+            }, 400);
+        }
+    });
+});
