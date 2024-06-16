@@ -2056,7 +2056,7 @@ br {
     }
 
     .text-box p {
-        font-size: 1.1rem;
+        font-size: 1.12rem;
     }
 
     .skill-rating {
@@ -2075,8 +2075,8 @@ br {
     }
 
     .about-footers {
-        width: 95%;
-        margin: 3% 0 0 0;
+        width: 65%;
+        margin: 3% 0 0 12.5%;
     }
     
 }
