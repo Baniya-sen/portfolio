@@ -2052,6 +2052,266 @@ br {
     }
 
     .line2 {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .skill-options {
+        margin-top: 3%;
+        margin-left: 11%;
+    }
+
+    .skill-options a {
+        width: 25%;
+        opacity: 0.8;
+    }
+
+    .about-box {
+        width: 100%;
+        margin: 5% 0 0 1%;
+        padding: 0;
+    }
+
+    .text-box {
+        width: 55%;
+        height: 10%;
+        padding: 0;
+        margin: 0 0 0 2%;
+    }
+
+    .text-box p {
+        font-size: 1.12rem;
+    }
+
+    .skill-rating {
+        margin: 8% 0 0 7%;
+        font-size: 1rem;
+    }
+
+    .all-skill li {
+        font-size: 1.7rem;
+        line-height: 2;
+    }
+
+    .all-skill li a {
+        font-size: 1.4rem;
+    }
+
+    .about-footers {
+        width: 65%;
+        margin: 5% 0 0 12.5%;
+    }
+
+    .ds-header {
+        width: 100%;
+        height: 30%;
+        margin: 0 0 0 0;
+    }
+
+    .ds-timeline {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ds-header img {
+        width: 80%;
+        margin: 0 0 0 7%;
+    }
+
+    .ds-timeline:nth-child(3) {
+        width: 80%;
+        margin-left: 7%;
+        text-align: center;
+    }
+
+    .ds-body-tab {
+        margin-top: 5%;
+    }
+
+    .dev-header {
+        width: 50%;
+    }
+
+    .dev-lang-header {
+        width: 40%;
+        margin: 2% 1.5% 0 0;
+    }
+
+    .f-head, .web-app-head {
+        margin: 7% 0 0 0;
+    }
+
+    .dev-f-line {
+        width: 30%;
+    }
+    
+    .dev-w-line {
+        width: 25%;
+    }
+
+    .web-box img {
+        height: 220px;
+    }
+
+    .project-box {
+        width: 100%;
+    }
+
+    .project-data-p {
+        width: 65%;
+    }
+
+    .panel-text h4 {
+        font-size: 0.75rem;
+    }
+
+    .panel-text p {
+        line-height: 1.4;
+    }
+
+    .project-techs {
+        width: 35%;
+        justify-content: flex-end;
+    }
+
+    .project-data-d {
+        height: 34%;
+    }
+
+    .project-data-ml {
+        height: 35%;
+        margin-top: 5%;
+    }
+
+    .technologies {
+        display: none;
+    }
+
+    .project-data-ml img {
+        width: 99%;
+    }
+
+    .project-data-s {
+        display: none;
+    }
+
+    .contact-box {
+        width: 50%;
+    }
+
+    .contact-box h1 {
+        display: none;
+    }
+
+    .contact-box p {
+        margin: 0;
+    }
+
+    .contact-options {
+        width: 90%;
+        margin: 5% 0 5% 8.5%;
+    }
+
+    .contact-icon {
+        width: 50%;
+    }
+
+    .contact-icon img {
+        width: 80%;
+    }
+    
+}
+
+/* For mobile devices (480px - 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .wrapper {
+        height: auto;
+        margin-top: 2%;
+    }
+
+    .header {
+        display: flex;
+        width: 35%;
+        margin-top: 10px;
+        margin-left: 6%;
+    }
+
+    .nav-toggle {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .timeline {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .nav-options {
+        display: none;
+    }
+
+    .container {
+        width: 99%;
+        height: 99%;
+        margin: 0 0 0 5%;
+        padding: 0;
+    }
+
+    .dabba {
+        width: 90%;
+    }
+
+    .box-content {
+        width: 100%;
+        height: 100%;
+        margin: 5% 0 0 0;   
+    }
+
+    .section {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0 0 5% 0;
+        padding: 0;
+    }
+
+    .small-headers {
+        display: block;
+    }
+    .small-headers h1{
+        font-family: 'Montserrat';
+        font-size: 4rem;
+        font-weight: 900;
+        text-align: left;
+    }
+    .small-headers h1::first-letter {
+        text-decoration: underline;
+    }
+
+    .content-item {
+        width: 80%;
+    }
+
+    .textex h1 {
+        font-size: 4.4rem;
+    }
+
+    .hire {
+        width: 85%;
+    }
+
+    .hire:hover {
+        width: 90%;
+    }
+
+    .line2 {
         width: 92%;
         margin-bottom: 5%;
     }
@@ -2219,15 +2479,263 @@ br {
     .contact-icon img {
         width: 80%;
     }
-    
-}
-
-/* For mobile devices (480px - 767px) */
-@media (min-width: 480px) and (max-width: 767px) {
-/* styles here */
 }
 
 /* For very small screens (less than 480px) */
 @media (max-width: 480px) {
-/* styles here */
+    .wrapper {
+        height: auto;
+        margin-top: 2%;
+    }
+
+    .header {
+        display: flex;
+        width: 35%;
+        margin-top: 10px;
+        margin-left: 6%;
+    }
+
+    .nav-toggle {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .timeline {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .nav-options {
+        display: none;
+    }
+
+    .container {
+        width: 99%;
+        height: 99%;
+        margin: 0 0 0 5%;
+        padding: 0;
+    }
+
+    .dabba {
+        width: 90%;
+    }
+
+    .box-content {
+        width: 100%;
+        height: 100%;
+        margin: 5% 0 0 0;   
+    }
+
+    .section {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0 0 5% 0;
+        padding: 0;
+    }
+
+    .small-headers {
+        display: block;
+    }
+    .small-headers h1{
+        font-family: 'Montserrat';
+        font-size: 4rem;
+        font-weight: 900;
+        text-align: left;
+    }
+    .small-headers h1::first-letter {
+        text-decoration: underline;
+    }
+
+    .content-item {
+        width: 80%;
+    }
+
+    .textex h1 {
+        font-size: 4.4rem;
+    }
+
+    .hire {
+        width: 85%;
+    }
+
+    .hire:hover {
+        width: 90%;
+    }
+
+    .line2 {
+        width: 92%;
+        margin-bottom: 5%;
+    }
+
+    .skill-options {
+        margin-top: 3%;
+        margin-left: 11%;
+    }
+
+    .skill-options a {
+        width: 25%;
+        opacity: 0.8;
+    }
+
+    .about-box {
+        width: 100%;
+        margin: 5% 0 0 1%;
+        padding: 0;
+    }
+
+    .text-box {
+        width: 55%;
+        height: 10%;
+        padding: 0;
+        margin: 0 0 0 2%;
+    }
+
+    .text-box p {
+        font-size: 1.12rem;
+    }
+
+    .skill-rating {
+        margin: 8% 0 0 7%;
+        font-size: 1rem;
+    }
+
+    .all-skill li {
+        font-size: 1.7rem;
+        line-height: 2;
+    }
+
+    .all-skill li a {
+        font-size: 1.4rem;
+    }
+
+    .about-footers {
+        width: 65%;
+        margin: 5% 0 0 12.5%;
+    }
+
+    .ds-header {
+        width: 100%;
+        height: 30%;
+        margin: 0 0 0 0;
+    }
+
+    .ds-timeline {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ds-header img {
+        width: 80%;
+        margin: 0 0 0 7%;
+    }
+
+    .ds-timeline:nth-child(3) {
+        width: 80%;
+        margin-left: 7%;
+        text-align: center;
+    }
+
+    .ds-body-tab {
+        margin-top: 5%;
+    }
+
+    .dev-header {
+        width: 50%;
+    }
+
+    .dev-lang-header {
+        width: 40%;
+        margin: 2% 0.6% 0 0;
+    }
+
+    .f-head, .web-app-head {
+        margin: 7% 0 0 0;
+    }
+
+    .dev-f-line {
+        width: 71%;
+    }
+    
+    .dev-w-line {
+        width: 31.5%;
+    }
+
+    .web-box img {
+        height: 220px;
+    }
+
+    .project-box {
+        width: 100%;
+    }
+
+    .project-data-p {
+        width: 65%;
+    }
+
+    .panel-text h4 {
+        font-size: 0.75rem;
+    }
+
+    .panel-text p {
+        line-height: 1.4;
+    }
+
+    .project-techs {
+        width: 35%;
+        justify-content: flex-end;
+    }
+
+    .project-data-d {
+        height: 34%;
+    }
+
+    .project-data-ml {
+        height: 35%;
+        margin-top: 5%;
+    }
+
+    .technologies {
+        display: none;
+    }
+
+    .project-data-ml img {
+        width: 99%;
+    }
+
+    .project-data-s {
+        display: none;
+    }
+
+    .contact-box {
+        width: 50%;
+    }
+
+    .contact-box h1 {
+        display: none;
+    }
+
+    .contact-box p {
+        margin: 0;
+    }
+
+    .contact-options {
+        width: 90%;
+        margin: 5% 0 5% 8.5%;
+    }
+
+    .contact-icon {
+        width: 50%;
+    }
+
+    .contact-icon img {
+        width: 80%;
+    }
 }
