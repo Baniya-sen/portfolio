@@ -1329,6 +1329,17 @@ br {
     scale: 0.94;
 }
 
+.made-by-me {
+    display: block;
+    text-align: center;
+    margin-top: -2%;
+}
+.made-by-me a{
+    font-size: 0.55rem;
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+}
+
 /* For High-end laptops and Desktops (1795px - 1900px) */
 @media (min-width: 1795px) and (max-width: 1900px) {
 
@@ -2223,7 +2234,7 @@ br {
 }
 
 /* For mobile devices (480px - 767px) */
-@media (min-width: 580px) and (max-width: 767px) and (aspect-ratio: 3/2) { 
+@media (min-width: 580px) and (max-width: 767px) { 
     .wrapper {
         height: auto;
         margin-top: 2%;
@@ -2478,6 +2489,16 @@ br {
 
     .contact-icon img {
         width: 80%;
+    }
+
+    .made-by-me {
+        display: block;
+        text-align: center;
+    }
+    .made-by-me a{
+        font-size: 0.5rem;
+        color: rgb(124, 124, 124);
+        text-decoration: none;
     }
 }
 
@@ -2828,7 +2849,8 @@ br {
     }
 
     .contact-box {
-        width: 50%;
+        width: 100%;
+        margin-left: 5.5%;
     }
 
     .contact-box h1 {
@@ -2841,7 +2863,7 @@ br {
 
     .contact-options {
         width: 90%;
-        margin: 5% 0 5% 8.5%;
+        margin: 5% 0 4% 8.5%;
     }
 
     .contact-icon {
@@ -2849,6 +2871,16 @@ br {
     }
 
     .contact-icon img {
-        width: 80%;
+        width: 70%;
+    }
+
+    .made-by-me {
+        display: block;
+        text-align: center;
+    }
+    .made-by-me a{
+        font-size: 0.5rem;
+        color: rgb(124, 124, 124);
+        text-decoration: none;
     }
 }
