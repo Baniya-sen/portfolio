@@ -2815,6 +2815,10 @@ br {
         display: none;
     }
 
+    .script {
+        font-size: 0.65rem;
+    }
+
     .project-data-ml img {
         width: 99%;
     }
