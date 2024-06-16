@@ -2672,7 +2672,7 @@ br {
     }
 
     .ds-timeline {
-        width: 104%;
+        width: 100%;
         padding: 0;
         text-align: center;
         /* border: 1px red solid; */
