@@ -2739,6 +2739,9 @@ br {
         height: 140px;
     }
 
+    .web-box:nth-child(5) {display: none;}
+    .web-box:nth-child(6) {display: none;}
+
     .project-box {
         flex-direction: column;
         width: 100%;
