@@ -2223,7 +2223,7 @@ br {
 }
 
 /* For mobile devices (480px - 767px) */
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) and (aspect-ratio: 3/2) { 
     .wrapper {
         height: auto;
         margin-top: 2%;
