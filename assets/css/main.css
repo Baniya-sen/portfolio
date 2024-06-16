@@ -1960,7 +1960,125 @@ br {
 
 /* For tablets (768px - 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
-/* styles here */
+    .wrapper {
+        height: 100%;
+        margin-top: 2%;
+    }
+
+    .header {
+        display: flex;
+        width: 30%;
+        margin-top: 6px;
+        margin-left: 5%;
+    }
+
+    .timeline {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .container {
+        width: 99%;
+        height: 99%;
+        margin: 0 0 0 5%;
+        padding: 0;
+    }
+
+    .dabba {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        /* border: 1px blue solid; */
+    }
+
+    .box-content {
+        width: 100%;
+        height: 100%;
+        margin: 5% 0 0 0;   
+        padding: 0;
+    }
+
+    .section {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .content-item {
+        width: 80%;
+    }
+
+    .textex h1 {
+        font-size: 4.4rem;
+    }
+
+    .hire {
+        width: 80%;
+    }
+
+    .hire:hover {
+        width: 87%;
+    }
+
+    .line2 {
+        width: 90.5%;
+        margin-bottom: 5%;
+    }
+
+    .skill-options {
+        margin-left: 15%;
+    }
+
+    .skill-options a {
+        width: 25%;
+    }
+
+    .about-box {
+        width: 100%;
+        margin: 0 0 0 1%;
+        padding: 0;
+        /* border: 1px blue solid; */
+    }
+
+    .text-box {
+        width: 55%;
+        height: 10%;
+        padding: 0;
+        margin: 0 0 0 2%;
+    }
+
+    .text-box p {
+        font-size: 1.1rem;
+    }
+
+    .skill-rating {
+        /* width: 45%; */
+        margin: 8% 0 0 7%;
+        font-size: 1rem;
+    }
+
+    .all-skill li {
+        font-size: 1.7rem;
+        line-height: 2;
+    }
+
+    .all-skill li a {
+        font-size: 1.4rem;
+    }
+
+    .about-footers {
+        width: 95%;
+        margin: 3% 0 0 0;
+    }
+    
 }
 
 /* For mobile devices (480px - 767px) */
