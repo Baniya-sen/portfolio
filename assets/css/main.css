@@ -2258,13 +2258,12 @@ br {
     }
 
     .nobel-data-middle {
-        padding: 0 18px;
-        width: 100%;
-        font-size: 2rem;
+        /* padding: 0 18px; */
+        width: 95%;
     }
 
     .nobel-data-middle p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     .nobel-data-bottom {
@@ -2277,10 +2276,11 @@ br {
     .nobel-data-bottom img:nth-child(1) {display: none;}
     
     .nobel-data-bottom img {
-        width: 95%;
+        width: 90%;
         margin-top: 3%;
     }
 
+    .nobel-data-bottom img:nth-child(2) {margin-left: -6.5%;}
     .nobel-data-bottom img:nth-child(4) {width: 85%;}
 
     .ds-header {
