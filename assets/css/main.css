@@ -1778,7 +1778,7 @@ br {
     .nav-options.active {
         margin: -47% 2% 0 0;
     }
-
+    
     .nav-options.active ul {
         font-size: 2.3rem;
     }
@@ -1876,15 +1876,20 @@ br {
     }
 
     .nobel-data-top {
-        height: 42%;
+        height: 48%;
     }
     
     .nobel-by-category img {
-        height: 215%;
+        height: 195%;
+        margin-left: 2%;
     }
 
     .read-data p {
-        width: 60%;
+        width: 70%;
+    }
+
+    .nan-nobel p {
+        width: 100%;
     }
     
     .data-nobel th, td {
