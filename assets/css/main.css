@@ -551,22 +551,22 @@ br {
 
 .ds-timeline {
     display: flex;
-    justify-content: space-around;
-    width: 80%;
+    justify-content: space-between;
+    width: 73%;
     height: 25%;
     padding: 0;
-    margin: -0.5% 0 0 0;
+    margin: -0.5% 0 0 2%;
     /* border: 1px yellow solid; */
 }
 
 .ds-timeline:nth-child(3) {
-    width: 70%;
-    margin: -0.5% 0 0 3%;
+    width: 42%;
+    margin: -0.5% 0 0 17%;
 }
 
 .ds-projects {
     font-family: 'Montserrat';
-    font-size: 0.72rem;
+    font-size: 0.75rem;
     font-weight: 500;
     text-transform: uppercase;
     cursor: pointer;
@@ -650,12 +650,19 @@ br {
 
 .nobel-data {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.nobel-data-top {
+    display: flex;
     justify-content: space-around;
     width: 99.8%;
-    height: 99.7%;
+    height: 48%;
     padding: 5px;
     box-sizing: border-box;
-    border: 1px blue solid;
 }
 
 .nobel-by-category {
@@ -665,24 +672,31 @@ br {
 }
 
 .nobel-by-category img {
-    height: 90%;
+    height: 180px;
     border-radius: 10px;
 }
 
-.read-data, .nan-nobel {
+.read-data {
     width: 40%;
     height: 45%;
+    text-align: left;
     /* border: 1px red solid; */
 }
-.read-data p, .nan-nobel p {
-    width: 55%;
+.read-data p {
+    width: 52%;
     padding: 4px 4px 4px 10px;
     background-color: #1f1f1f;
     color: white;
     border-radius: 5px;
     text-align: left;
     font-family: 'Consolas';
-    font-size: 0.75rem;
+    font-size: 0.7rem;
+}
+
+.read-data a {
+    font-family: 'Oswald';
+    font-size: 12px;
+    text-align: left;
 }
 
 .data-nobel {
@@ -705,7 +719,7 @@ br {
 
 .nan-nobel {
     width: 20%;
-    height: 55%;
+    height: 40%;
     /* border: 1px red solid; */
 }
 .nan-nobel p {
@@ -716,13 +730,13 @@ br {
     border-radius: 5px;
     text-align: left;
     font-family: 'Consolas';
-    font-size: 0.75rem;
+    font-size: 0.70rem;
 }
 
 .nan-data-nobel {
     width: 90%;
     border-collapse: collapse;
-    font-size: 9px;
+    font-size: 8px;
 }
 .nan-data-nobel th, td {
     border: 1px solid #504b3e;
@@ -735,6 +749,33 @@ br {
 }
 .nan-data-nobel tr:nth-child(even) {
     background-color: #1c1c1c;
+}
+
+.nobel-data-middle {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 22px;
+    width: 90%;
+}
+
+.nobel-data-middle p {
+    font-family: 'Oswald';
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.nobel-data-bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 36%;
+    box-sizing: border-box;
+}
+
+.nobel-data-bottom img {
+    height: 95%;
+    border-radius: 4px;
 }
 
 
