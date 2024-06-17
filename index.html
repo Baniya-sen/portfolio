@@ -35,9 +35,9 @@
                 <ul class="dots">
                     <li class="dot active" data-target="0"><p>Home</p></li>
                     <li class="dot" data-target="1"><p>About</p></li>
+                    <li class="dot" data-target="4"><p>Projects</p></li>
                     <li class="dot" data-target="2"><p>Data Science</p></li>
                     <li class="dot" data-target="3"><p>Developement</p></li>
-                    <li class="dot" data-target="4"><p>Projects</p></li>
                     <li class="dot" data-target="5"><p>Contact</p></li>
                 </ul>
             </div>
@@ -108,220 +108,6 @@
                                 <div class="social-icons">
                                     <img src="assets/img/icons8-twitter.svg" alt="twitter-icon">
                                     <a href="https://x.com/baniye_ka_dimag" target="_blank">Twitter/X</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="section">
-                        <div class="small-headers"><h1>Data Science:</h1></div>
-                        <div class="ds-box">
-                            <div class="ds-header">
-                                <div class="ds-timeline">
-                                    <p class="ds-projects active">Nobel Price Analysis</p>
-                                    <p class="ds-projects">Lego Set Buisness Analysis</p>
-                                    <p class="ds-projects">Programming Languages Defactor</p>
-                                    <p class="ds-projects">Google Playstore Bias Analysis</p>
-                                    <p class="ds-projects">Multivariate Regression and Model</p>
-                                </div>
-                                <img src="assets/img/ds-timeline.png" alt="">
-                                <div class="ds-timeline">
-                                    <p class="ds-projects">Google Trends And Visualization</p>
-                                    <p class="ds-projects">Dr Semmelweis Discovery</p>
-                                    <p class="ds-projects">College Major Analysis</p>
-                                    <p class="ds-projects">Zomato Customer Data Analysis</p>
-                                </div>
-                            </div>
-                            <div class="ds-body-tab">
-                                <ul class="ds-content">
-                                    <li class="ds-section active">
-                                        <div class="nobel-data">
-                                            <div class="read-data">
-                                                <p>df_data = pd.read_csv('nobel_prize_data.csv')<br>df_data.head(5)</p>
-                                                <table class="data-nobel" border="1">
-                                                    <tr>
-                                                        <th>Year</th>
-                                                        <th>Category</th>
-                                                        <th>Prize Share</th>
-                                                        <th>Full Name</th>
-                                                        <th>Birth Date</th>
-                                                        <th>Sex</th>
-                                                        <th>...</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1901</td>
-                                                        <td>Chemistry</td>
-                                                        <td>1/1</td>
-                                                        <td>Jacobus Henricus van 't Hoff</td>
-                                                        <td>1852-08-30</td>
-                                                        <td>Male</td>
-                                                        <td>...</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1901</td>
-                                                        <td>Literature</td>
-                                                        <td>1/1</td>
-                                                        <td>Sully Prudhomme</td>
-                                                        <td>1839-03-16</td>
-                                                        <td>Male</td>
-                                                        <td>...</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1901</td>
-                                                        <td>Medicine</td>
-                                                        <td>1/1</td>
-                                                        <td>Emil Adolf von Behring</td>
-                                                        <td>1854-03-15</td>
-                                                        <td>Male</td>
-                                                        <td>...</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1901</td>
-                                                        <td>Peace</td>
-                                                        <td>1/2</td>
-                                                        <td>Frédéric Passy</td>
-                                                        <td>1822-05-20</td>
-                                                        <td>Male</td>
-                                                        <td>...</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1901</td>
-                                                        <td>Peace</td>
-                                                        <td>1/2</td>
-                                                        <td>Jean Henry Dunant</td>
-                                                        <td>1828-05-08</td>
-                                                        <td>Male</td>
-                                                        <td>...</td>
-                                                    </tr>
-                                                </table>                                                
-                                            </div>
-                                            <div class="nobel-by-category">
-                                                <h4>Nobel Price Awards By Category</h4>
-                                                <img src="assets/img/nobel_award_project/price_category.png" alt="">
-                                            </div>
-                                            <div class="nan-nobel">
-                                                <p>nan_counts = df_data.isna().sum()<br>nan_counts[nan_counts > 0]</p>
-                                                <table class="nan-data-nobel" border="1">
-                                                    <tr>
-                                                        <th>Columns</th>
-                                                        <th>NaN Values</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Year</td>
-                                                        <td>0</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Category</td>
-                                                        <td>0</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Prize Share</td>
-                                                        <td>0</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Full Name</td>
-                                                        <td>0</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Birth Date</td>
-                                                        <td>28</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Sex</td>
-                                                        <td>28</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>...</td>
-                                                        <td>...</td>
-                                                    </tr>
-                                                </table>  
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="ds-section">
-                                        2.
-                                    </li>
-                                    <li class="ds-section"></li>
-                                    <li class="ds-section"></li>
-                                    <li class="ds-section"></li>
-                                    <li class="ds-section"></li>
-                                    <li class="ds-section"></li>
-                                    <li class="ds-section"></li>
-                                    <li class="ds-section"></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="section">  
-                        <div class="small-headers"><h1>Developement:</h1></div>  
-                        <div class="developement-box">
-                            <div class="dev-header">
-                                <p>"I have experience building responsive websites using HTML, CSS, and JavaScript. I have personal projects with back-end technologies like Flask and Django."</p>
-                            </div>
-                            <div class="dev-lang-header">
-                                <div class="languages-used">
-                                    <div class="lang-line"></div>
-                                    <div class="lang-line"></div>
-                                    <div class="lang-line"></div>
-                                    <div class="lang-line"></div>
-                                </div>
-                                <div class="lang-names">
-                                    <ul>
-                                        <li>Python 36.4%</li>
-                                        <li>HTML 28.6%</li>
-                                        <li>CSS 24.1%</li>
-                                        <li>JavaScript 10.9%</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <br>
-                            <a href="https://financestocks.pythonanywhere.com/login" target="_blank"><h2 class="f-head">Finance WebApp</h2></a>
-                            <div class="dev-f-line"></div>
-                            <div class="dev-finance">
-                                <div class="fin-box">
-                                    <h4>User-Authentication:</h4>
-                                    <img src="assets/img/finance-register.jpg" alt="f-register">
-                                </div>
-                                <div class="fin-box">
-                                    <h4>MVC Model:</h4>
-                                    <img src="assets/img/finance-mvc.jpg" alt="f-mvc">
-                                </div>
-                                <div class="fin-box">
-                                    <h4>Session-Database:</h4>
-                                    <img src="assets/img/finance-dashboard.jpg" alt="f-dashboard">
-                                </div>
-                            </div>
-                            <a href="https://baniya-web-apps.onrender.com/home.html" target="_blank"><h2 class="web-app-head">Web-Apps with various functionalities</h2></a>
-                            <div class="dev-w-line"></div>
-                            <div class="dev-web-apps">
-                                <div class="web-box">
-                                    <h4>Weather App:</h4>
-                                    <img src="assets/img/weather-web.png" alt="">
-                                    <p></p>
-                                </div>
-                                <div class="web-box">
-                                    <h4>Notes App:</h4>
-                                    <img src="assets/img/notes-web.png" alt="">
-                                    <p></p>
-                                </div>
-                                <div class="web-box">
-                                    <h4>ToDo App:</h4>
-                                    <img src="assets/img/todo-web.png" alt="">
-                                    <p></p>
-                                </div>
-                                <div class="web-box">
-                                    <h4>Password Generator:</h4>
-                                    <img src="assets/img/password-web.png" alt="">
-                                    <p></p>
-                                </div>
-                                <div class="web-box">
-                                    <h4>QR Generator:</h4>
-                                    <img src="assets/img/qr-code-web.png" alt="">
-                                    <p></p>
-                                </div>
-                                <div class="web-box">
-                                    <h4>Quizz App:</h4>
-                                    <img src="assets/img/quizz-web.png" alt="">
-                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -474,6 +260,229 @@ axs[1].set_ylabel("Y2")
                         </div>
                     </li>
                     <li class="section">
+                        <div class="small-headers"><h1>Data Science:</h1></div>
+                        <div class="ds-box">
+                            <div class="ds-header">
+                                <div class="ds-timeline">
+                                    <p class="ds-projects active">Nobel Price Analysis</p>
+                                    <p class="ds-projects">Google Playstore Bias Analysis</p>
+                                </div>
+                                <img src="assets/img/ds-timeline.png" alt="">
+                                <div class="ds-timeline">
+                                    <p class="ds-projects">Google Trends And Visualization</p>
+                                    <p class="ds-projects">Zomato Customer Data Analysis</p>
+                                </div>
+                            </div>
+                            <div class="ds-body-tab">
+                                <ul class="ds-content">
+                                    <li class="ds-section active">
+                                        <div class="nobel-data">
+                                            <div class="nobel-data-top">
+                                                <div class="read-data">
+                                                    <p>df_data = pd.read_csv('nobel_prize_data.csv')<br>df_data.head(5)</p>
+                                                    <table class="data-nobel" border="1">
+                                                        <tr>
+                                                            <th>Year</th>
+                                                            <th>Category</th>
+                                                            <th>Prize Share</th>
+                                                            <th>Full Name</th>
+                                                            <th>Birth Date</th>
+                                                            <th>Sex</th>
+                                                            <th>...</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1901</td>
+                                                            <td>Chemistry</td>
+                                                            <td>1/1</td>
+                                                            <td>Jacobus Henricus van 't Hoff</td>
+                                                            <td>1852-08-30</td>
+                                                            <td>Male</td>
+                                                            <td>...</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1901</td>
+                                                            <td>Literature</td>
+                                                            <td>1/1</td>
+                                                            <td>Sully Prudhomme</td>
+                                                            <td>1839-03-16</td>
+                                                            <td>Male</td>
+                                                            <td>...</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1901</td>
+                                                            <td>Medicine</td>
+                                                            <td>1/1</td>
+                                                            <td>Emil Adolf von Behring</td>
+                                                            <td>1854-03-15</td>
+                                                            <td>Male</td>
+                                                            <td>...</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1901</td>
+                                                            <td>Peace</td>
+                                                            <td>1/2</td>
+                                                            <td>Frédéric Passy</td>
+                                                            <td>1822-05-20</td>
+                                                            <td>Male</td>
+                                                            <td>...</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>1901</td>
+                                                            <td>Peace</td>
+                                                            <td>1/2</td>
+                                                            <td>Jean Henry Dunant</td>
+                                                            <td>1828-05-08</td>
+                                                            <td>Male</td>
+                                                            <td>...</td>
+                                                        </tr>
+                                                    </table>                                            
+                                                </div>
+                                                <div class="nobel-by-category">
+                                                    <h4>Nobel Price Awards By Category</h4>
+                                                    <img src="assets/img/nobel_award_project/price_category.png" alt="">
+                                                </div>
+                                                <div class="nan-nobel">
+                                                    <p>nan_counts = df_data.isna().sum()<br>nan_counts[nan_counts > 0]</p>
+                                                    <table class="nan-data-nobel" border="1">
+                                                        <tr>
+                                                            <th>Columns</th>
+                                                            <th>NaN Values</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Year</td>
+                                                            <td>0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Category</td>
+                                                            <td>0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Prize Share</td>
+                                                            <td>0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Full Name</td>
+                                                            <td>0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Birth Date</td>
+                                                            <td>28</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Sex</td>
+                                                            <td>28</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>...</td>
+                                                            <td>...</td>
+                                                        </tr>
+                                                    </table>  
+                                                </div>
+                                            </div>
+                                            <div class="nobel-data-middle">
+                                                <p>On November 27, 1895, Alfred Nobel signed his last will in Paris. When it was opened after his death, the will caused a lot of controversy, as Nobel had left much of his wealth for the establishment of a prize.
+                                                    Alfred Nobel dictates that his entire remaining estate should be used to endow “prizes to those who, during the preceding year, have conferred the greatest benefit to humankind”.
+                                                    Every year the Nobel Prize is given to scientists and scholars in the categories chemistry, literature, physics, physiology or medicine, economics, and peace.
+                                                    Let's see what patterns we can find in the data of the past Nobel laureates. What can we learn about the Nobel prize and our world more generally?</p>
+                                            </div>
+                                            <div class="nobel-data-bottom">
+                                                <img src="assets/img/nobel_award_project/nobel_gender.png" alt="">
+                                                <img src="assets/img/nobel_award_project/nobel_age_distribution.png" alt="">
+                                                <img src="assets/img/nobel_award_project/nobel_awards_over_time.png" alt="">
+                                                <img src="assets/img/nobel_award_project/novel_box.png" alt="">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="ds-section">
+                                        2.
+                                    </li>
+                                    <li class="ds-section"></li>
+                                    <li class="ds-section"></li>
+                                    <li class="ds-section"></li>
+                                    <li class="ds-section"></li>
+                                    <li class="ds-section"></li>
+                                    <li class="ds-section"></li>
+                                    <li class="ds-section"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="section">  
+                        <div class="small-headers"><h1>Developement:</h1></div>  
+                        <div class="developement-box">
+                            <div class="dev-header">
+                                <p>"I have experience building responsive websites using HTML, CSS, and JavaScript. I have personal projects with back-end technologies like Flask and Django."</p>
+                            </div>
+                            <div class="dev-lang-header">
+                                <div class="languages-used">
+                                    <div class="lang-line"></div>
+                                    <div class="lang-line"></div>
+                                    <div class="lang-line"></div>
+                                    <div class="lang-line"></div>
+                                </div>
+                                <div class="lang-names">
+                                    <ul>
+                                        <li>Python 36.4%</li>
+                                        <li>HTML 28.6%</li>
+                                        <li>CSS 24.1%</li>
+                                        <li>JavaScript 10.9%</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <br>
+                            <a href="https://financestocks.pythonanywhere.com/login" target="_blank"><h2 class="f-head">Finance WebApp</h2></a>
+                            <div class="dev-f-line"></div>
+                            <div class="dev-finance">
+                                <div class="fin-box">
+                                    <h4>User-Authentication:</h4>
+                                    <img src="assets/img/finance-register.jpg" alt="f-register">
+                                </div>
+                                <div class="fin-box">
+                                    <h4>MVC Model:</h4>
+                                    <img src="assets/img/finance-mvc.jpg" alt="f-mvc">
+                                </div>
+                                <div class="fin-box">
+                                    <h4>Session-Database:</h4>
+                                    <img src="assets/img/finance-dashboard.jpg" alt="f-dashboard">
+                                </div>
+                            </div>
+                            <a href="https://baniya-web-apps.onrender.com/home.html" target="_blank"><h2 class="web-app-head">Web-Apps with various functionalities</h2></a>
+                            <div class="dev-w-line"></div>
+                            <div class="dev-web-apps">
+                                <div class="web-box">
+                                    <h4>Weather App:</h4>
+                                    <img src="assets/img/weather-web.png" alt="">
+                                    <p></p>
+                                </div>
+                                <div class="web-box">
+                                    <h4>Notes App:</h4>
+                                    <img src="assets/img/notes-web.png" alt="">
+                                    <p></p>
+                                </div>
+                                <div class="web-box">
+                                    <h4>ToDo App:</h4>
+                                    <img src="assets/img/todo-web.png" alt="">
+                                    <p></p>
+                                </div>
+                                <div class="web-box">
+                                    <h4>Password Generator:</h4>
+                                    <img src="assets/img/password-web.png" alt="">
+                                    <p></p>
+                                </div>
+                                <div class="web-box">
+                                    <h4>QR Generator:</h4>
+                                    <img src="assets/img/qr-code-web.png" alt="">
+                                    <p></p>
+                                </div>
+                                <div class="web-box">
+                                    <h4>Quizz App:</h4>
+                                    <img src="assets/img/quizz-web.png" alt="">
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="section">
                         <div class="small-headers"><h1>Contact Me:</h1></div>  
                         <div class="dabba-contact">
                             <div class="contact-box">
@@ -500,9 +509,9 @@ axs[1].set_ylabel("Y2")
         <ul class="options">
             <li class="option" data-target="0"><p><s>Home</s></p></li>
             <li class="option" data-target="1"><p>About</p></li>
+            <li class="option" data-target="4"><p>Projects</p></li>
             <li class="option" data-target="2"><p>Data Science</p></li>
             <li class="option" data-target="3"><p>Developement</p></li>
-            <li class="option" data-target="4"><p>Projects</p></li>
             <li class="option" data-target="5"><p>Contact</p></li>
         </ul>
     </div>
