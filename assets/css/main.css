@@ -1994,8 +1994,12 @@ br {
         margin: 2% 0 3% 1px;
     }
 
+    .projects-display {
+        height: 100%;
+    }
+
     .project-panel {
-        height: 85px;
+        height: 14%;
     }
 
     .project-panel img {
@@ -2043,6 +2047,7 @@ br {
     .dr-discovery-analysis img, .project-data-ml img {
         margin-top: -4%;
         width: 99%;
+        height: auto;
     }
 
     .project-techs {
