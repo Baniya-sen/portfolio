@@ -2231,40 +2231,57 @@ br {
     }
 
     .nobel-data-top {
-        height: 42%;
+        height: 45%;
     }
     
-    .nobel-by-category img {
-        height: 215%;
+    .nobel-by-category {
+        display: none;
     }
 
     .read-data p {
-        width: 60%;
+        width: 90%;
+    }
+
+    .nan-nobel p {
+        width: 130%;
     }
     
     .data-nobel th, td {
-        padding: 5px;
+        padding: 6px;
     }
     
     .nan-data-nobel {
-        font-size: 7.5px;
+        font-size: 9px;
     }
     .nan-data-nobel th, .nan-data-nobel td {
-        padding: 3px;
+        padding: 5px;
     }
 
     .nobel-data-middle {
         padding: 0 18px;
-        width: 95%;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .nobel-data-middle p {
+        font-size: 1.4rem;
     }
     
     .nobel-data-bottom {
-        height: 38%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
+
+    .nobel-data-bottom img:nth-child(1) {display: none;}
     
     .nobel-data-bottom img {
-        height: 80%;
+        width: 95%;
+        margin-top: 3%;
     }
+
+    .nobel-data-bottom img:nth-child(4) {width: 85%;}
 
     .ds-header {
         width: 100%;
@@ -2527,40 +2544,57 @@ br {
     }
 
     .nobel-data-top {
-        height: 42%;
+        height: 45%;
     }
     
-    .nobel-by-category img {
-        height: 215%;
+    .nobel-by-category {
+        display: none;
     }
 
     .read-data p {
-        width: 60%;
+        width: 90%;
+    }
+
+    .nan-nobel p {
+        width: 130%;
     }
     
     .data-nobel th, td {
-        padding: 5px;
+        padding: 6px;
     }
     
     .nan-data-nobel {
-        font-size: 7.5px;
+        font-size: 9px;
     }
     .nan-data-nobel th, .nan-data-nobel td {
-        padding: 3px;
+        padding: 5px;
     }
 
     .nobel-data-middle {
         padding: 0 18px;
-        width: 95%;
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .nobel-data-middle p {
+        font-size: 1.4rem;
     }
     
     .nobel-data-bottom {
-        height: 38%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
+
+    .nobel-data-bottom img:nth-child(1) {display: none;}
     
     .nobel-data-bottom img {
-        height: 80%;
+        width: 95%;
+        margin-top: 3%;
     }
+
+    .nobel-data-bottom img:nth-child(4) {width: 85%;}
 
     .ds-header {
         width: 100%;
