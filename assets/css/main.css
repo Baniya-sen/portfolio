@@ -205,7 +205,7 @@ br {
     padding: 0;
     margin: 2% 0 0 10%;
     width: 75%;
-    height: 680px;
+    height: 74vh;
     justify-content: center;
     text-align: center;
     overflow: hidden;
@@ -1408,7 +1408,7 @@ br {
 @media (min-width: 1795px) and (max-width: 1900px) {
 
     .wrapper {
-        height: 95%;
+        height: 100%;
     }
 
     .nav-bar {
@@ -1791,7 +1791,7 @@ br {
 @media (min-width: 1281px) and (max-width: 1537px) {
 
     .wrapper {
-        height: 95%;
+        height: 100%;
     }
 
     .container.nav {
@@ -1831,9 +1831,9 @@ br {
     .dot:nth-child(6) { top: 66%; }
 
     .box-content {
-        margin: 0% 0 0 9%;
+        margin: -5% 0 0 9%;
         width: 85%;
-        height: 620px;
+        height: 85vh;
     }
 
     .section.active {
@@ -2018,8 +2018,12 @@ br {
         margin: 2% 0 3% 1px;
     }
 
+    .projects-display {
+        height: 100%;
+    }
+
     .project-panel {
-        height: 85px;
+        height: 14%;
     }
 
     .project-panel img {
@@ -2067,6 +2071,7 @@ br {
     .dr-discovery-analysis img, .project-data-ml img {
         margin-top: -4%;
         width: 99%;
+        height: auto;
     }
 
     .project-techs {
