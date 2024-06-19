@@ -1935,11 +1935,13 @@ br {
     }
 
     .read-data p {
-        width: 70%;
+        width: 60%;
+        font-size: 0.65rem;
     }
 
     .nan-nobel p {
         width: 100%;
+        font-size: 0.65rem;
     }
     
     .data-nobel th, td {
