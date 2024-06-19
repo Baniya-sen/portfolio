@@ -1944,6 +1944,10 @@ br {
         padding: 0;
         width: 100%;
     }
+
+    .nobel-data-middle p {
+        font-size: 0.8rem;
+    }
     
     .nobel-data-bottom {
         height: 38%;
