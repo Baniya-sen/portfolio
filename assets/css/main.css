@@ -1614,6 +1614,19 @@ br {
         height: 80%;
     }
 
+    .g-playstore {
+        padding: 0px;
+    }
+    
+    .g-playstore h3 {
+        font-size: 1.3rem;
+    }
+    
+    .g-playstore img {
+        height: 31%;
+        padding: 2px 8px;
+    }
+
     .developement-box {
         scale: 0.95;
     }
@@ -1886,7 +1899,7 @@ br {
         width: 60%;
     }
 
-    .text-box p{
+    .text-box p {
         margin-left: 7%;
         font-size: 1.4rem;
     }
@@ -1957,6 +1970,23 @@ br {
     
     .nobel-data-bottom img {
         height: 90%;
+    }
+
+    .g-playstore {
+        padding: 0px;
+    }
+    
+    .g-playstore h3 {
+        font-size: 1.3rem;
+        padding: 10px 0;
+    }
+    
+    .g-playstore img:nth-child(5) {display: none;}
+    .g-playstore img:nth-child(9) {display: none;}
+
+    .g-playstore img {
+        height: 38%;
+        padding: 2px 8px;
     }
 
     .dev-header {
@@ -2331,6 +2361,27 @@ br {
     .nobel-data-bottom img:nth-child(2) {margin-left: -6.5%;}
     .nobel-data-bottom img:nth-child(4) {width: 85%;}
 
+    .g-playstore {
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .g-playstore h3 {
+        font-size: 1.7rem;
+        padding: 10px 0;
+        text-align: left;
+    }
+    
+    .g-playstore img:nth-child(5) {display: none;}
+    .g-playstore img:nth-child(9) {display: none;}
+
+    .g-playstore img {
+        width: 90%;
+        padding: 11px 0;
+    }
+
     .ds-header {
         width: 100%;
         height: 30%;
@@ -2688,6 +2739,27 @@ br {
 
     .nobel-data-bottom img:nth-child(2) {margin-left: -6.5%;}
     .nobel-data-bottom img:nth-child(4) {width: 85%;}
+
+    .g-playstore {
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .g-playstore h3 {
+        font-size: 1.5rem;
+        padding: 10px 0;
+        text-align: left;
+    }
+    
+    .g-playstore img:nth-child(5) {display: none;}
+    .g-playstore img:nth-child(9) {display: none;}
+
+    .g-playstore img {
+        width: 90%;
+        padding: 11px 0;
+    }
 
     .ds-header {
         width: 100%;
@@ -3126,6 +3198,27 @@ br {
 
     .nobel-data-bottom img:nth-child(2) {margin-left: -6.5%;}
     .nobel-data-bottom img:nth-child(4) {width: 90%;}
+
+    .g-playstore {
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .g-playstore h3 {
+        font-size: 1.2rem;
+        padding: 10px 0;
+        text-align: left;
+    }
+    
+    .g-playstore img:nth-child(5) {display: none;}
+    .g-playstore img:nth-child(9) {display: none;}
+
+    .g-playstore img {
+        width: 90%;
+        padding: 11px 0;
+    }
 
     .ds-header {
         width: 100%;
