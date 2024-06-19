@@ -964,6 +964,7 @@ br {
     height: 48%;
     padding: 5px;
     box-sizing: border-box;
+    border: 1px red solid;
 }
 
 .nobel-by-category {
@@ -1072,6 +1073,7 @@ br {
     width: 100%;
     height: 36%;
     box-sizing: border-box;
+    border: 1px red solid;
 }
 
 .nobel-data-bottom img {
@@ -1459,12 +1461,13 @@ br {
 @media (min-width: 1538px) and (max-width: 1794px) {
 
     .wrapper {
-        height: 95%;
+        height: 100%;
     }
 
     .box-content {
         width: 80%;
         height: 680px;
+        margin-top: 1%;
         overflow: visible;
     }
 
@@ -1570,8 +1573,13 @@ br {
         margin: -7% 0 0 2%;
     }
 
+    .nobel-data {
+        padding: 0;
+    }
+
     .nobel-data-top {
         height: 42%;
+        padding: 0;
     }
     
     .nobel-by-category img {
@@ -1594,8 +1602,8 @@ br {
     }
 
     .nobel-data-middle {
-        padding: 0 18px;
-        width: 95%;
+        padding: 0;
+        width: 100%;
     }
     
     .nobel-data-bottom {
@@ -1831,7 +1839,7 @@ br {
     .dot:nth-child(6) { top: 66%; }
 
     .box-content {
-        margin: -5% 0 0 9%;
+        margin: -6% 0 0 9%;
         width: 85%;
         height: 85vh;
     }
@@ -1899,8 +1907,13 @@ br {
         margin-top: -6%;
     }
 
+    .nobel-data {
+        padding: 0;
+    }
+
     .nobel-data-top {
-        height: 48%;
+        height: 44%;
+        padding: 0;
     }
     
     .nobel-by-category img {
@@ -1928,16 +1941,18 @@ br {
     }
 
     .nobel-data-middle {
-        padding: 0 18px;
-        width: 95%;
+        padding: 0;
+        width: 100%;
     }
     
     .nobel-data-bottom {
         height: 38%;
     }
+
+    .nobel-data-bottom img:nth-child(4) {display: none;}
     
     .nobel-data-bottom img {
-        height: 80%;
+        height: 90%;
     }
 
     .dev-header {
