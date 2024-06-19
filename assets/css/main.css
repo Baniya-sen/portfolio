@@ -964,7 +964,7 @@ br {
     height: 48%;
     padding: 5px;
     box-sizing: border-box;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 .nobel-by-category {
@@ -1073,7 +1073,7 @@ br {
     width: 100%;
     height: 36%;
     box-sizing: border-box;
-    border: 1px red solid;
+    /* border: 1px red solid; */
 }
 
 .nobel-data-bottom img {
@@ -1917,8 +1917,8 @@ br {
     }
     
     .nobel-by-category img {
-        height: 195%;
-        margin-left: 2%;
+        height: 185%;
+        margin-left: 4%;
     }
 
     .read-data p {
