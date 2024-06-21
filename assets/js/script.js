@@ -92,11 +92,14 @@ ds_Pro.forEach((ds, index) => {
             currentSection.classList.add('fade-out');
             setTimeout(() => {currentSection.classList.remove('active')}, 350);
 
+            const mq = window.matchMedia("(min-width: 1024px)");
+            let timeoutDuration = mq.matches ? 400 : 350; 
+
             ds_Sections[index].classList.add('fade-in');
             setTimeout(() => {
                 ds_Sections.forEach(section => section.classList.remove('fade-out'));
                 ds_Sections[index].classList.add('active');
-            }, 350);
+            }, timeoutDuration);
         }
     });
 });
