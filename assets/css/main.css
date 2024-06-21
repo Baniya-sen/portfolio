@@ -1119,7 +1119,7 @@ br {
 }
 
 .g-trend-box-inner:nth-child(1) {
-    width: 25%;
+    width: 24%;
 }
 .g-trend-box-inner:nth-child(2) {
     width: 35%;
@@ -1697,10 +1697,10 @@ br {
     }
 
     .g-trend-box-inner:nth-child(1) {
-        width: 22%;
+        width: 24%;
     }
     .g-trend-box-inner:nth-child(2) {
-        width: 32%;
+        width: 33%;
     }
     .g-trend-box-inner:nth-child(3) {
         width: 32%;
