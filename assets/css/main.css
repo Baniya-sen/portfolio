@@ -2262,7 +2262,388 @@ br {
     .contact-icon {
         scale: 0.9;
     }
+
+    .made-by-me {
+        margin-top: -8%;
+        margin-left: 4%;
+    }
 }
+
+
+/* For Smaller laptops (1025px - 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .wrapper {
+        height: 100%;
+    }
+
+    .container.nav {
+        margin-top: -2%;
+        padding-bottom:4%;
+        transform: perspective(700px) scale(0.4) translateX(-400px) rotateY(5deg);
+    }
+
+    .nav-options.active {
+        margin: -52% 0% 0 0;
+    }
+    
+    .nav-options.active ul {
+        font-size: 2.3rem;
+    }
+
+    .header {
+        margin-left: 1px;
+    }
+
+    .nav-bar {
+        margin: 8px 7% 0 0;
+    }
+
+    .timeline {
+        margin: 10px 0 0 -10px;
+    }
+    
+    .dots li p {
+        font-size: 0.9rem;
+    }
+
+    .dot:nth-child(1) { top: 8%; }
+    .dot:nth-child(2) { top: 20%; }
+    .dot:nth-child(3) { top: 32%; }
+    .dot:nth-child(4) { top: 44%; }
+    .dot:nth-child(5) { top: 55%; }
+    .dot:nth-child(6) { top: 66%; }
+
+    .box-content {
+        margin: -6% 0 0 9%;
+        width: 85%;
+        height: 85vh;
+    }
+
+    .section.active {
+        scale: 0.95;
+    }
+
+    .line {
+        margin: 2% 0 0 25px;
+        height: 70%;
+    }
+
+    .textex h1 {
+        font-size: 3.6rem;
+    }
+
+    .content-item {
+        width: 100%;
+        height: 85%;
+    }
+
+    .hire {
+        width: 50%;
+    }
+
+    .hire:hover {
+        width: 55%;
+    }
+
+    .line2 {
+        width: 78%;
+        margin-left: 8.3%;
+    }
+
+    .skill-options {
+        margin-top: 0;
+        margin-left: 2.5%;
+    }
+
+    .text-box {
+        margin-top: -9%;
+        scale: 0.8;
+        width: 60%;
+    }
+
+    .text-box p {
+        margin-left: 7%;
+        font-size: 1.4rem;
+    }
+
+    .skill-rating {
+        margin-left: 1%;
+    }
+    
+    .skill-options {
+        margin-top: -3%;
+    }
+    
+    .all-skill li {
+        font-size: 1.8rem;
+    }
+
+    .about-footers {
+        margin-top: -6%;
+    }
+
+    .nobel-data {
+        padding: 0;
+    }
+
+    .nobel-data-top {
+        height: 44%;
+        padding: 0;
+    }
+    
+    .nobel-by-category img {
+        height: 180%;
+        margin-left: 2%;
+    }
+
+    .read-data p {
+        width: 60%;
+        font-size: 0.65rem;
+    }
+
+    .nan-nobel p {
+        width: 100%;
+        font-size: 0.65rem;
+    }
+    
+    .data-nobel th, td {
+        padding: 3px;
+    }
+    
+    .nan-data-nobel {
+        font-size: 7.5px;
+    }
+    .nan-data-nobel th, .nan-data-nobel td {
+        padding: 2px;
+    }
+
+    .nobel-data-middle {
+        padding: 0;
+        width: 100%;
+    }
+
+    .nobel-data-middle p {
+        font-size: 0.8rem;
+    }
+    
+    .nobel-data-bottom {
+        height: 38%;
+    }
+
+    .nobel-data-bottom img:nth-child(4) {display: none;}
+    
+    .nobel-data-bottom img {
+        height: 90%;
+    }
+
+    .g-playstore {
+        padding: 0px;
+    }
+    
+    .g-playstore h3 {
+        font-size: 1.3rem;
+        padding: 10px 0;
+    }
+    
+    .g-playstore img:nth-child(5) {display: none;}
+    .g-playstore img:nth-child(9) {display: none;}
+
+    .g-playstore img {
+        height: 35%;
+        padding: 2px 8px;
+    }
+
+    .developement-box {
+        margin-top: 2%;
+    }
+
+    .dev-header {
+        width: 55%;
+        font-size: 1.2em;
+    }
+
+    .dev-lang-header {
+        width: 35%;
+        margin: 5px 1% -5% 0;
+    }
+
+    .f-head, .web-app-head {
+        font-size: 1.4rem;
+    }
+    
+    .dev-f-line {
+        width: 78%;
+    }
+    
+    .dev-w-line {
+        width: 51%;
+    }
+
+    .web-app-head {
+        margin-top: 4%;
+    }
+
+    .fin-box h4, .web-box h4 {
+        padding: 15px 0 15px 0;
+        font-size: 1.1rem;
+    }
+
+    .web-box:nth-child(6) {display: none;}
+    
+    .dev-web-apps img {
+        height: 160px;
+    }
+
+    .project-box {
+        margin-top: 5%;
+        height: 88%;
+    }
+
+    .project-data-p {
+        height: auto;
+    }
+
+    .project-p-header img {
+        padding-left: 5px;
+        border-radius: 5px;
+    }
+
+    .project-count {
+        width: 60%;
+    }
+
+    .project-count h3 {
+        font-size: 0.95rem;
+        margin-left: 4%;
+    }
+    
+    .project-count p {
+        font-size: 0.75rem;
+        line-height: 1.2;
+    }
+    
+    .project-count img {
+        width: 105%;
+        height: 60%;
+    }
+    
+    .project-p-header #p-visual {
+        width: 49%;
+        height: 105%;
+        margin-top: 5%;
+    }
+
+    .line-separator {
+        margin: 2% 0 3% 1px;
+    }
+
+    .projects-display {
+        height: 100%;
+    }
+
+    .project-panel {
+        height: 15%;
+    }
+
+    .project-panel img {
+        display: none;
+    }
+
+    .project-panel:nth-child(5) { display: none; }
+
+    .panel-text {
+        width: 85%;
+        padding: 0;
+        padding-right: 5px;
+        border: none;
+        box-sizing: border-box;
+    }
+
+    .panel-text h4 {
+        font-size: 0.74rem;
+        margin-top: 4.5%;
+    }
+    
+    .panel-text p {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+    
+    .use-tech {
+        padding: 15px 0 0 4px;
+    }
+
+    .basic-web {
+        margin-top: 4%;
+    }
+
+    .use-tech ul {
+        font-size: 0.6rem;
+    }
+
+    .script {
+        font-size: 0.58rem;
+        line-height: 1.2;
+        margin-top: -3%;
+    }
+    
+    .dr-discovery-analysis img, .project-data-ml img {
+        margin-top: -4%;
+        width: 99%;
+        height: auto;
+    }
+
+    .project-techs {
+        height: 98%;
+    }
+
+    .project-data-s {
+        height: 98%;
+    }
+
+    .basic-web {
+        margin-top: 22%;
+    }
+
+    .s-data-footer {
+        width: 100%;
+        height: 10%;
+        margin-top: 0;
+    }
+
+    .s-data-footer a {
+        margin: -5% 0 0 0;
+        font-size: 0.8rem;
+    }
+
+    .s-data-footer img {
+        width: 15%;
+    }
+
+    .dabba-contact {
+        margin-top: 1%;
+    }
+
+    .contact-box {
+        width: 60%;
+        margin: 6% 0 0 8%;
+    }   
+
+    .contact-options {
+        margin: 8% 0 0 17%;
+    }
+
+    .contact-icon {
+        scale: 0.9;
+    }
+
+    .made-by-me {
+        margin-top: -8%;
+        margin-left: 4%;
+    }
+}
+
 
 /* For tablets (768px - 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -3365,6 +3746,7 @@ br {
 
     .data-nobel {
         width: 90%;
+        font-size: 6.4px;
     }
     
     .data-nobel th, td {
@@ -3672,12 +4054,9 @@ br {
     }
 
     .made-by-me {
-        display: block;
-        text-align: center;
+        margin-top: 0%;
     }
     .made-by-me a{
         font-size: 0.5rem;
-        color: rgb(124, 124, 124);
-        text-decoration: none;
     }
 }
