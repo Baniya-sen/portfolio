@@ -96,7 +96,7 @@ ds_Pro.forEach((ds, index) => {
             setTimeout(() => {
                 ds_Sections.forEach(section => section.classList.remove('fade-out'));
                 ds_Sections[index].classList.add('active');
-            }, 400);
+            }, 350);
         }
     });
 });

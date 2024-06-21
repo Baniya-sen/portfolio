@@ -914,7 +914,6 @@ br {
     width: 99.9%;
     height: 99.5%;
     box-sizing: border-box;
-    /* border: 2px yellow solid; */
 }
 
 .ds-section.active {
@@ -2476,6 +2475,55 @@ br {
         padding: 11px 0;
     }
 
+    .g-trend-box {
+        flex-direction: column;
+    }
+    
+    .g-trend-box-inner {
+        flex-direction: row;
+    }
+    
+    .g-trend-box-inner:nth-child(1) {
+        width: 49%;
+    }
+    .g-trend-box-inner:nth-child(2) {
+        width: 49%;
+    }
+    .g-trend-box-inner:nth-child(3) {
+        width: 49%;
+    }
+    
+    .g-trend-box-inner img {
+        margin-right: 5%;
+        margin-bottom: 5%;
+        border: none;
+    }
+    
+    .zomato-box {
+        flex-direction: row;
+        width: 96%;
+    }
+    
+    .zomato-innerbox-left {
+        flex-direction: column;
+        border-bottom: none;
+    }
+    
+    .zomato-innerbox-left img {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .zomato-innerbox-right {
+        flex-direction: column;
+    }
+    
+    .zomato-innerbox-right img {
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
     .ds-header {
         width: 100%;
         height: 30%;
@@ -2853,6 +2901,55 @@ br {
     .g-playstore img {
         width: 90%;
         padding: 11px 0;
+    }
+
+    .g-trend-box {
+        flex-direction: column;
+    }
+    
+    .g-trend-box-inner {
+        flex-direction: row;
+    }
+    
+    .g-trend-box-inner:nth-child(1) {
+        width: 49%;
+    }
+    .g-trend-box-inner:nth-child(2) {
+        width: 49%;
+    }
+    .g-trend-box-inner:nth-child(3) {
+        width: 49%;
+    }
+    
+    .g-trend-box-inner img {
+        margin-right: 5%;
+        margin-bottom: 5%;
+        border: none;
+    }
+    
+    .zomato-box {
+        flex-direction: row;
+        width: 96%;
+    }
+    
+    .zomato-innerbox-left {
+        flex-direction: column;
+        border-bottom: none;
+    }
+    
+    .zomato-innerbox-left img {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .zomato-innerbox-right {
+        flex-direction: column;
+    }
+    
+    .zomato-innerbox-right img {
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 5%;
     }
 
     .ds-header {
@@ -3243,7 +3340,7 @@ br {
     }
 
     .nobel-data-top {
-        width: 99%;
+        width: 100%;
         margin-top: -2%;
     }
     
@@ -3252,15 +3349,19 @@ br {
     }
 
     .read-data {
-        width: 500%;
+        width: 100%;
     }
 
     .read-data p {
-        width: 70%;
+        width: 90%;
     }
 
     .nan-nobel {
         display: none;
+    }
+
+    .data-nobel {
+        width: 90%;
     }
     
     .data-nobel th, td {
@@ -3312,6 +3413,67 @@ br {
     .g-playstore img {
         width: 90%;
         padding: 11px 0;
+    }
+
+    .g-trend-box {
+        flex-direction: column;
+    }
+    
+    .g-trend-box-inner {
+        flex-direction: column;
+    }
+    
+    .g-trend-box-inner:nth-child(1) {
+        width: 99%;
+    }
+    .g-trend-box-inner:nth-child(1) img:nth-child(1) {
+        display: none;
+    }
+    .g-trend-box-inner:nth-child(2) {
+        width: 99%;
+    }
+    .g-trend-box-inner:nth-child(2) img:nth-child(2) {
+        display: none;
+    }
+    .g-trend-box-inner:nth-child(3) {
+        width: 99%;
+    }
+    
+    .g-trend-box-inner img {
+        margin-bottom: 5%;
+        border: none;
+    }
+    
+    .zomato-box {
+        flex-direction: column;
+        width: 96%;
+    }
+    
+    .zomato-innerbox-left {
+        flex-direction: column;
+        border-bottom: none;
+    }
+
+    .zomato-innerbox-left img:nth-child(3) {
+        display: none;
+    }
+    
+    .zomato-innerbox-left img {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    .zomato-innerbox-right {
+        flex-direction: column;
+    }
+    
+    .zomato-innerbox-right img:nth-child(2) {
+        display: none;
+    }
+    
+    .zomato-innerbox-right img {
+        width: 100%;
+        margin-bottom: 5%;
     }
 
     .ds-header {
