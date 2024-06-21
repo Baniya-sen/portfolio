@@ -1693,17 +1693,17 @@ br {
     }
 
     .g-trend-box {
-        height: 88%;
+        height: 84%;
     }
 
     .g-trend-box-inner:nth-child(1) {
-        width: 23%;
+        width: 20%;
     }
     .g-trend-box-inner:nth-child(2) {
-        width: 33%;
+        width: 32%;
     }
     .g-trend-box-inner:nth-child(3) {
-        width: 33%;
+        width: 32%;
     }
     
     .zomato-box {
