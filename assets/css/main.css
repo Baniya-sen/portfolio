@@ -1105,6 +1105,69 @@ br {
     border-radius: 10px;
 }
 
+.g-trend-box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.g-trend-box-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.g-trend-box-inner:nth-child(1) {
+    width: 25%;
+}
+.g-trend-box-inner:nth-child(2) {
+    width: 35%;
+}
+.g-trend-box-inner:nth-child(3) {
+    width: 35%;
+}
+
+.g-trend-box-inner img {
+    width: 100%;
+    border: 2px grey solid;
+    border-radius: 5px;
+}
+
+.zomato-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.zomato-innerbox-left {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 46%;
+    border-bottom: 2px grey solid;
+}
+
+.zomato-innerbox-left img {
+    width: 32%;
+    height: 95%;
+    border-radius: 5px;
+}
+
+.zomato-innerbox-right {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 48%;
+}
+
+.zomato-innerbox-right img {
+    width: 32%;
+    border-radius: 5px;
+}
+
 
 
 /* Developement */
