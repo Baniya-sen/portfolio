@@ -1509,6 +1509,11 @@ br {
     .g-playstore img {
         height: 40%;
     }
+
+    .made-by-me {
+        margin-top: -8%;
+        margin-left: 4%;
+    }
 }
 
 
@@ -1889,6 +1894,11 @@ br {
 
     .contact-icon {
         scale: 0.9;
+    }
+
+    .made-by-me {
+        margin-top: -8%;
+        margin-left: 4%;
     }
 }
 
