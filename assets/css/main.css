@@ -1695,6 +1695,16 @@ br {
     .g-trend-box {
         height: 88%;
     }
+
+    .g-trend-box-inner:nth-child(1) {
+        width: 23%;
+    }
+    .g-trend-box-inner:nth-child(2) {
+        width: 33%;
+    }
+    .g-trend-box-inner:nth-child(3) {
+        width: 33%;
+    }
     
     .zomato-box {
         height: 90%;
