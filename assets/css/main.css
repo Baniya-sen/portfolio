@@ -1692,6 +1692,23 @@ br {
         padding: 2px 8px;
     }
 
+    .g-trend-box {
+        height: 88%;
+    }
+    
+    .zomato-box {
+        height: 90%;
+    }
+    
+    .zomato-innerbox-left {
+        height: 45%;
+    }
+    
+    .zomato-innerbox-right img {
+        width: 32%;
+        border-radius: 5px;
+    }
+
     .developement-box {
         scale: 0.95;
     }
