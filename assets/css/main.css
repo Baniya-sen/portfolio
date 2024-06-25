@@ -2007,6 +2007,10 @@ br {
         margin-top: -6%;
     }
 
+    .ds-box {
+        scale: 0.95;
+    }
+
     .nobel-data {
         padding: 0;
     }
