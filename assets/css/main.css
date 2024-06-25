@@ -2082,6 +2082,33 @@ br {
         padding: 2px 8px;
     }
 
+    .g-trend-box {
+        height: 84%;
+    }
+
+    .g-trend-box-inner:nth-child(1) {
+        width: 24%;
+    }
+    .g-trend-box-inner:nth-child(2) {
+        width: 33%;
+    }
+    .g-trend-box-inner:nth-child(3) {
+        width: 32%;
+    }
+    
+    .zomato-box {
+        height: 86%;
+    }
+    
+    .zomato-innerbox-left {
+        height: 45%;
+    }
+    
+    .zomato-innerbox-right img {
+        width: 32%;
+        border-radius: 5px;
+    }
+
     .dev-header {
         width: 55%;
         font-size: 1.2em;
@@ -2465,6 +2492,33 @@ br {
     .g-playstore img {
         height: 35%;
         padding: 2px 8px;
+    }
+
+    .g-trend-box {
+        height: 84%;
+    }
+
+    .g-trend-box-inner:nth-child(1) {
+        width: 24%;
+    }
+    .g-trend-box-inner:nth-child(2) {
+        width: 33%;
+    }
+    .g-trend-box-inner:nth-child(3) {
+        width: 32%;
+    }
+    
+    .zomato-box {
+        height: 86%;
+    }
+    
+    .zomato-innerbox-left {
+        height: 45%;
+    }
+    
+    .zomato-innerbox-right img {
+        width: 32%;
+        border-radius: 5px;
     }
 
     .developement-box {
