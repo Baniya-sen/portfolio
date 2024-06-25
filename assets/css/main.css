@@ -1448,8 +1448,7 @@ br {
 .made-by-me {
     display: block;
     text-align: center;
-    margin-top: -7%;
-    margin-left: 2%;
+    margin-top: 0%;
 }
 .made-by-me a{
     font-size: 0.55rem;
@@ -1511,7 +1510,7 @@ br {
     }
 
     .made-by-me {
-        margin-top: -7%;
+        margin-top: 0;
     }
 }
 
@@ -1894,10 +1893,6 @@ br {
     .contact-icon {
         scale: 0.9;
     }
-
-    .made-by-me {
-        margin-top: -7%;
-    }
 }
 
 /* For Smaller laptops (1281px - 1537px) */
@@ -1958,6 +1953,10 @@ br {
         height: 70%;
     }
 
+    /* .box {
+        margin-bottom: -3%;
+    } */
+
     .textex h1 {
         font-size: 3.6rem;
     }
@@ -1986,7 +1985,7 @@ br {
     }
 
     .text-box {
-        margin-top: -9%;
+        margin-top: -6%;
         scale: 0.8;
         width: 60%;
     }
@@ -2259,11 +2258,6 @@ br {
 
     .contact-icon {
         scale: 0.9;
-    }
-
-    .made-by-me {
-        margin-top: -8%;
-        margin-left: 4%;
     }
 }
 
@@ -2634,10 +2628,6 @@ br {
 
     .contact-icon {
         scale: 0.9;
-    }
-
-    .made-by-me {
-        margin-top: -8%;
     }
 }
 
@@ -3528,8 +3518,6 @@ br {
     }
     .made-by-me a{
         font-size: 0.5rem;
-        color: rgb(124, 124, 124);
-        text-decoration: none;
     }
 }
 
@@ -4050,9 +4038,6 @@ br {
         width: 70%;
     }
 
-    .made-by-me {
-        margin-top: 0%;
-    }
     .made-by-me a{
         font-size: 0.5rem;
     }
