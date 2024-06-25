@@ -2259,6 +2259,10 @@ br {
     .contact-icon {
         scale: 0.9;
     }
+
+    .made-by-me a {
+        font-size: 0.5rem;
+    }
 }
 
 
@@ -2628,6 +2632,10 @@ br {
 
     .contact-icon {
         scale: 0.9;
+    }
+
+    .made-by-me a {
+        font-size: 0.5rem;
     }
 }
 
