@@ -1953,10 +1953,6 @@ br {
         height: 70%;
     }
 
-    /* .box {
-        margin-bottom: -3%;
-    } */
-
     .textex h1 {
         font-size: 3.6rem;
     }
@@ -1985,14 +1981,14 @@ br {
     }
 
     .text-box {
-        margin-top: -6%;
+        margin-top: -4%;
         scale: 0.8;
         width: 60%;
     }
 
     .text-box p {
         margin-left: 7%;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .skill-rating {
