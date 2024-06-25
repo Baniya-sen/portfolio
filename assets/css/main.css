@@ -2189,15 +2189,20 @@ br {
     }
 
     .project-data-d {
-        height: 38%;
+        height: 36%;
     }
 
     .project-data-ml {
-        height: 38%;
+        height: 36%;
     }
 
     .technologies {
-        height: 15%;
+        height: 8%;
+        margin-top: -9%;
+    }
+
+    .techs li {
+        font-size: 0.8rem;
     }
     
     .use-tech {
@@ -2220,7 +2225,7 @@ br {
     
     .dr-discovery-analysis img, .project-data-ml img {
         margin-top: -4%;
-        width: 99%;
+        width: 90%;
         height: auto;
     }
 
@@ -2229,11 +2234,11 @@ br {
     }
 
     .project-data-s {
-        height: 95%;
+        height: 90%;
     }
 
     .basic-web {
-        margin-top: 22%;
+        margin-top: 10%;
     }
 
     .s-data-footer {
