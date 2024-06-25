@@ -2187,6 +2187,18 @@ br {
         font-size: 0.8rem;
         line-height: 1.4;
     }
+
+    .project-data-d {
+        height: 38%;
+    }
+
+    .project-data-ml {
+        height: 38%;
+    }
+
+    .technologies {
+        height: 15%;
+    }
     
     .use-tech {
         padding: 15px 0 0 4px;
@@ -2217,7 +2229,7 @@ br {
     }
 
     .project-data-s {
-        height: 98%;
+        height: 95%;
     }
 
     .basic-web {
